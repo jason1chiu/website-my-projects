@@ -1,4 +1,17 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+}
+
+.doubles-alley {
+    flex: 15%;
+}
+
+.header {
+    flex: 35%;
+}
+
+.ads-no-mans-land {
+    flex: 35%;
 }

@@ -6,10 +6,13 @@ body {
 
 .doubles-alley {
     flex: 15%;
+    background-image: url(../images/tennisball.jpg);
+    background-size: contain;
 }
 
 .header {
     flex: 35%;
+    justify-content: center;
 }
 
 .ads-no-mans-land {

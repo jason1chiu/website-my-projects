@@ -1,20 +1,182 @@
-body {
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: lightblue;
+    border: 1rem solid white;
+    position: relative;
+    justify-content: space-between;
 }
 
-.doubles-alley {
-    flex: 15%;
-    background-image: url(../images/tennisball.jpg);
-    background-size: contain;
+.doubles-alley-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 10%;
 }
 
-.header {
-    flex: 35%;
-    justify-content: center;
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1rem solid white;
 }
 
-.ads-no-mans-land {
-    flex: 35%;
+header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    flex: 0 0 50%;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.tee-left {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 50%;
+    width: 25px;
+    height: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 80%;
+}
+
+.left-court {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+}
+
+.left-no-mans-land {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    border-right: 1rem solid white;
+    padding: 10px;
+}
+
+.left-service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+}
+
+.left-ads-service-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    border-bottom: 0.5rem solid white;
+    padding: 10px;  
+}
+
+.left-deuce-service-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    padding: 10px;
+    border-top: 0.5rem solid white;
+}
+
+.right-service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+}
+
+.right-ads-service-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    border-top: 0.5rem solid white;
+    padding: 10px;  
+}
+
+.right-deuce-service-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    border-bottom: 0.5rem solid white;
+    padding: 10px;  
+}
+.right-court {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+}
+
+.right-no-mans-land {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    border-left: 1rem solid white;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1rem solid white;
+}
+
+.doubles-alley-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 10%;
+}
+
+footer h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.tee-right {
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 50%;
+    width: 25px;
+    height: 1rem;
+}
+
+.net {
+    border-left: 3px dashed black;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
 }

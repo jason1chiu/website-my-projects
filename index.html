@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/07f4fcb269.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Jason's Portfolio</title>
 </head>
@@ -13,14 +15,14 @@
     </header>
     <main>
         <div class="navbar">
-            <aside >
-                <h2>Links</h2>
+            <aside>
+                <h2>Menu</h2>
                 <nav>
                     <ul>
                         <li><a href="#about-me">About Me</a></li>
                         <li><a href="#work">Work</a></li>
-                        <li><a href="contact-me">Contact Me</a></li>
-                        <li><a href="resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#resume">Resume</a></li>
                     </ul>
                 </nav>
             </aside>
@@ -35,26 +37,40 @@
             <div class="images">
                 <div class="first">
                     <div class="cell">
-                        <figure>
-                            <img src="./assets/images/first-project.jpg" class="first-project" alt="first-project">
-                            <figcaption>Learning Semantic HTML and CSS</figcaption>
-                        </figure>
+                        <a href="https://jason1chiu.github.io/accessibility-measures-met/"><img src="./assets/images/first-project.jpg" class="first-project" alt="first-project"></a>
                     </div>
                 </div>
             </div>
        </div>
        <div class="sidebar">
             <aside>
-                <h2>Contact</h2>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="contact-me">Contact Me</a></li>
-                    <li><a href="resume">Resume</a></li>
-                </ul>
+                <h2 id="contact">Contact</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#phone"><i class="fa-solid fa-phone"></i></a></li>
+                        <li><a href="#facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#github"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </nav>
             </aside>
         </div>
     </main>
+    <footer id="footer-contact">
+        <div>
+            <h2>Contact</h2>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>

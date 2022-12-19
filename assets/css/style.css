@@ -113,7 +113,6 @@ aside ul li a {
     max-height: 100%;
 }
 
-/*
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -121,7 +120,6 @@ footer {
     align-items: center;
     padding: 30px;
 }
-*/
 
 footer h2 {
     display: flex;

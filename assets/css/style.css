@@ -43,6 +43,14 @@ main {
     flex-wrap: wrap;
     flex: 0 0 20%;
     justify-content: center;
+    visibility: visible;
+}
+
+aside h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    justify-content: center;
 }
 
 aside ul {
@@ -63,11 +71,36 @@ aside ul li a {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 60%;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me, .work {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 100%;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+}
+
+.cell {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.first-project {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+figcaption {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }

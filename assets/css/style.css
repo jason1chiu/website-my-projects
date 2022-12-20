@@ -47,7 +47,6 @@ main {
     flex-wrap: wrap;
     flex: 0 0 20%;
     justify-content: center;
-    visibility: visible;
 }
 
 aside h2 {
@@ -113,15 +112,9 @@ aside ul li a {
     max-height: 100%;
 }
 
-/*
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+    visibility: hidden
 }
-*/
 
 footer h2 {
     display: flex;
@@ -147,4 +140,15 @@ i {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .sidebar {
+        display: none;
+    }
+    
+    footer {
+        visibility: visible
+    }
 }

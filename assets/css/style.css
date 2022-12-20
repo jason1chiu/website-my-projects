@@ -114,6 +114,7 @@ aside ul li a {
 }
 
 footer {
+    display: block;
     visibility: hidden
 }
 

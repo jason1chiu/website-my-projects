@@ -119,6 +119,7 @@ p {
 
 .first {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cell {

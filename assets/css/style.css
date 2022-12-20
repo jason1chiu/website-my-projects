@@ -36,6 +36,7 @@ main {
     flex-wrap: wrap;
     flex: 0 0 20%;
     justify-content: center;
+    position: sticky;
 }
 
 .navbar ul li a {
@@ -114,11 +115,8 @@ aside ul li a {
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+    display: block;
+    visibility: hidden;
 }
 
 footer h2 {
@@ -133,7 +131,7 @@ footer nav ul {
     list-style-type: none;
 }
 
-footer nav ul li a {
+footer nav ul li i {
     display: block;
     border: 1px solid;
     border-radius: .5em;
@@ -145,4 +143,15 @@ i {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sidebar {
+        visibility: hidden;
+    }
+
+    footer {
+        visibility: visible;
+    }
 }

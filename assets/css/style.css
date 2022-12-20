@@ -97,6 +97,7 @@ aside ul li a {
 
 .first {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cell {

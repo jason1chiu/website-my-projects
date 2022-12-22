@@ -10,11 +10,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: lightgreen;
     position: relative;
     justify-content: space-between;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
+    background-image: url(../images/tennis.jpg);
+    background-size: cover;
 }
 
 header {
@@ -28,8 +29,7 @@ header {
 main { 
     display: flex;
     flex-wrap: wrap;
-    border: 5px solid white;
-    background-color: lightblue;
+
 }
 
 .navbar {
@@ -94,8 +94,6 @@ aside ul li a {
     flex: 0 0 60%;
     justify-content: center;
     align-items: center;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
 }
 
 .about-me, .work {
@@ -166,7 +164,20 @@ i {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 2000px) {
+
+    body {
+        background-image: url(../images/badminton.jpeg);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    body{
+        background-image: url(../images/table-tennis.jpeg);
+        background-size: cover;
+    }
 
     .sidebar {
         visibility: hidden;

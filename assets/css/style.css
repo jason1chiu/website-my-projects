@@ -17,7 +17,7 @@ body {
     font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
     background-image: url(../images/tennis.jpeg);
-    background-size: cover
+    background-size: cover;
 }
 
 .navbar, header {
@@ -118,17 +118,17 @@ p {
     justify-content: space-between
 }
 
-.first .cell, .flexbox,i {
+.first .cell, .flexbox, i {
     display: flex;
     flex-wrap: wrap
 }
 
-.second .cell .third .cell {
+.first .cell, .second .cell, .third .cell {
     padding: 10px;
     margin: 10px;
 }
 
-.first .cell div,.second .cell div,.third .cell div {
+.first .cell div, .second .cell div,.third .cell div {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff0;

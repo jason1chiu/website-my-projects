@@ -113,12 +113,7 @@ h2 {
     flex-wrap: wrap
 }
 
-.flexbox {
-    flex-direction: column;
-    justify-content: space-between
-}
-
-.first .cell,.flexbox,i {
+.first .cell, .i {
     display: flex;
     flex-wrap: wrap
 }
@@ -128,7 +123,7 @@ h2 {
     margin: 10px
 }
 
-.first .cell div,.second .cell div,.third .cell div {
+.first .cell div, .second .cell div, .third .cell div {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff0;
@@ -150,20 +145,20 @@ footer {
     visibility: hidden
 }
 
-footer h2,footer nav ul,h2 {
+footer h2, footer nav ul, h2 {
     display: flex;
     justify-content: center
 }
 
-.first .cell,footer h2 {
-    flex: 1 1 auto
+.first .cell, footer h2 {
+    flex: 1 1 auto;
 }
 
 footer nav ul {
     list-style-type: none
 }
 
-.sidebar aside ul li a,aside ul li a,footer nav ul li i {
+.sidebar aside ul li a, aside ul li a, footer nav ul li i {
     display: block;
     border: 1px solid;
     border-radius: .5em;

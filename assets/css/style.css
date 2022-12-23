@@ -1,4 +1,4 @@
-*,body {
+*, body {
     margin: 0
 }
 
@@ -20,7 +20,7 @@ body {
     background-size: cover
 }
 
-.navbar,header {
+.navbar, header {
     justify-content: center
 }
 
@@ -44,7 +44,7 @@ header {
     background-color: #fff
 }
 
-.navbar,.sidebar,aside ul,main {
+.navbar, .sidebar, aside ul, main {
     display: flex;
     flex-wrap: wrap
 }
@@ -74,12 +74,12 @@ aside ul li a {
     text-align: center
 }
 
-.about-me,.main-content,.work {
+.about-me, .main-content, .work {
     display: flex;
     align-items: center
 }
 
-.main-content,aside h2 {
+.main-content, aside h2 {
     flex-wrap: wrap;
     justify-content: center
 }
@@ -88,13 +88,13 @@ aside ul li a {
     flex: 0 0 60%
 }
 
-.about-me,.work {
+.about-me, .work {
     flex-direction: column;
     flex: 0 0 100%;
     padding: 20px 0
 }
 
-.first,p {
+.first, p {
     display: flex
 }
 
@@ -118,7 +118,7 @@ h2 {
     flex-wrap: wrap
 }
 
-.first .cell {
+.first .cell, .second .cell, .third .cell {
     padding: 10px;
     margin: 10px
 }

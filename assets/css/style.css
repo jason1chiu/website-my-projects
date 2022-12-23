@@ -20,7 +20,7 @@ body {
     background-size: cover
 }
 
-.navbar,header {
+.navbar, header {
     justify-content: center
 }
 
@@ -28,7 +28,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 30px
+    padding: 170px;
+    background-image: url(../images/header-background.jpeg);
+    background-size: cover;
+    color: yellow;
 }
 
 .navbar {
@@ -91,14 +94,15 @@ aside ul li a {
     padding: 20px 0
 }
 
-.first,p {
+.first, p {
     display: flex
 }
 
 p {
     padding: 20px;
     text-indent: 2em;
-    line-height: 2em
+    line-height: 2em;
+    text-align: justify;
 }
 
 .about-me h2 {

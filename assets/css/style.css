@@ -136,13 +136,13 @@ p {
     padding: .5em 1em;
     margin: .5em;
     position: relative;
-    width: max-content;
+    width: 175px;
     bottom: 100px
 }
 
 .first-project {
-    width: max-content;
-    height: max-content;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -155,7 +155,7 @@ aside h2,footer h2,footer nav ul {
     justify-content: center
 }
 
-.first .cell,footer h2 {
+.first .cell, footer h2 {
     flex: 1 1 auto
 }
 
@@ -163,7 +163,7 @@ footer nav ul {
     list-style-type: none
 }
 
-.sidebar aside ul li a,aside ul li a,footer nav ul li i {
+.sidebar aside ul li a, aside ul li a, footer nav ul li i {
     display: block;
     border: 1px solid;
     border-radius: .5em;

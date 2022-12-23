@@ -29,7 +29,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     padding: 170px;
-    background-image: url(../images/header-background.jpeg);
+    background-image: url(../images/header-background.webp);
     background-size: cover;
     color: yellow;
 }

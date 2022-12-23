@@ -128,7 +128,7 @@ p {
     margin: 10px;
 }
 
-.first .cell div, .second .cell div,.third .cell div {
+.first .cell div, .second .cell div, .third .cell div {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff0;
@@ -136,13 +136,13 @@ p {
     padding: .5em 1em;
     margin: .5em;
     position: relative;
-    width: 175px;
+    width: max-content;
     bottom: 100px
 }
 
 .first-project {
-    max-width: 100%;
-    max-height: 100%
+    width: max-content;
+    height: max-content;
 }
 
 footer {
@@ -172,7 +172,7 @@ footer nav ul {
     box-shadow: 6px 6px #00f
 }
 
-.sidebar aside ul li a,footer nav ul li i {
+.sidebar aside ul li a, footer nav ul li i {
     padding: .5em 1em
 }
 
@@ -180,6 +180,7 @@ i {
     text-align: center
 }
 
+/* sidebar tooltip */
 .tooltip {
     position: relative;
     display: inline-block;
@@ -219,6 +220,7 @@ i {
     opacity: 1;
 }
 
+/* footer tooltip */
 .ftooltip {
     position: relative;
     display: inline-block;
@@ -258,6 +260,7 @@ i {
     opacity: 1;
 }
 
+/* Change to badminton */
 @media screen and (max-width:2000px) {
     body {
         background-image: url(../images/badminton.jpeg);
@@ -265,6 +268,7 @@ i {
     }
 }
 
+/* Change to table tennis */
 @media screen and (max-width:1000px) {
     body {
         background-image: url(../images/table-tennis.jpeg);

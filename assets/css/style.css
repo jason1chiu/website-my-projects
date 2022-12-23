@@ -1,4 +1,4 @@
-*, body {
+*,body {
     margin: 0
 }
 
@@ -20,7 +20,7 @@ body {
     background-size: cover
 }
 
-.navbar, header {
+.navbar,header {
     justify-content: center
 }
 
@@ -44,7 +44,7 @@ header {
     background-color: #fff
 }
 
-.navbar, .sidebar, aside ul, main {
+.navbar,.sidebar,aside ul,main {
     display: flex;
     flex-wrap: wrap
 }
@@ -57,7 +57,7 @@ header {
 }
 
 aside h2 {
-    display: flex;
+    flex-wrap: wrap;
     flex: 0 0 100%
 }
 
@@ -74,27 +74,24 @@ aside ul li a {
     text-align: center
 }
 
-.about-me, .main-content, .work {
+.about-me,.main-content,.work {
     display: flex;
     align-items: center
 }
 
-.main-content, aside h2 {
+.main-content {
     flex-wrap: wrap;
+    flex: 0 0 60%;
     justify-content: center
 }
 
-.main-content {
-    flex: 0 0 60%
-}
-
-.about-me, .work {
+.about-me,.work {
     flex-direction: column;
     flex: 0 0 100%;
     padding: 20px 0
 }
 
-.first, p {
+.first,p {
     display: flex
 }
 
@@ -104,8 +101,7 @@ p {
     line-height: 2em
 }
 
-h2 {
-    flex: 1 1 auto;
+.about-me h2 {
     padding: 0 0 20px
 }
 
@@ -113,17 +109,22 @@ h2 {
     flex-wrap: wrap
 }
 
-.first .cell, .i {
+.flexbox {
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.first .cell,.flexbox,i {
     display: flex;
     flex-wrap: wrap
 }
 
-.first .cell, .second .cell, .third .cell {
+.first .cell {
     padding: 10px;
     margin: 10px
 }
 
-.first .cell div, .second .cell div, .third .cell div {
+.first .cell div,.second .cell div,.third .cell div {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff0;
@@ -145,20 +146,20 @@ footer {
     visibility: hidden
 }
 
-footer h2, footer nav ul, h2 {
+aside h2,footer h2,footer nav ul {
     display: flex;
     justify-content: center
 }
 
-.first .cell, footer h2 {
-    flex: 1 1 auto;
+.first .cell,footer h2 {
+    flex: 1 1 auto
 }
 
 footer nav ul {
     list-style-type: none
 }
 
-.sidebar aside ul li a, aside ul li a, footer nav ul li i {
+.sidebar aside ul li a,aside ul li a,footer nav ul li i {
     display: block;
     border: 1px solid;
     border-radius: .5em;
@@ -175,7 +176,7 @@ i {
     text-align: center
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:2000px) {
     body {
         background-image: url(../images/badminton.jpeg);
         background-size: cover

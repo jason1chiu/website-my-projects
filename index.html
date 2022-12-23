@@ -1,79 +1,148 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/07f4fcb269.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Jason's Portfolio</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Jason Chiu</h1>
+      <h1>Jason Chiu</h1>
     </header>
     <main>
-        <div class="navbar">
-            <aside>
-                <h2>Menu</h2>
-                <nav>
-                    <ul>
-                        <li><a href="#about-me">About Me</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                    </ul>
-                </nav>
-            </aside>
+      <div class="navbar">
+        <aside class="menu">
+          <h2>Menu</h2>
+          <nav>
+            <ul>
+              <li>
+                <a href="#about-me">About Me</a>
+              </li>
+              <li>
+                <a href="#work">Work</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#resume">Resume</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+      <div class="main-content">
+        <div class="about-me">
+          <h2 id="about-me">About Me</h2>
+          <p> Hello everyone! Welcome to my portfolio website that I have learned to code the past few months. My legal name is Chien-Cheng Chiu, but you may address me as Jason. </p>
         </div>
-       <div class="main-content">
-            <div class="about-me">
-                <h2 id="about-me">About Me</h2>
-                <p>
-                    Hello everyone! Welcome to my website on portfolios that I have learned to code the past few months. My legal name is Chien-Cheng Chiu, but you may address me as Jason. 
-                </p>
+        <div class="work">
+          <h2 id="work">Work</h2>
+          <div>
+            <div class="first">
+              <div class="cell">
+                <a href="https://jason1chiu.github.io/accessibility-measures-met/">
+                  <img src="./assets/images/first-project.jpg" class="first-project" alt="first-project">
+                  <div>
+                    <h3>1st Project</h3>
+                    <span>HTML/CSS</span>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="work">
-                <h2 id="work">Work</h2>
+          </div>
+          <div>
+            <div class="second">
+              <div class="cell">
+                <a href="https://jason1chiu.github.io/accessibility-measures-met/">
+                  <img src="./assets/images/first-project.jpg" class="first-project" alt="first-project">
+                  <div>
+                    <h3>2nd Project</h3>
+                    <span>HTML/CSS</span>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="images">
-                <div class="first">
-                    <div class="cell">
-                        <a href="https://jason1chiu.github.io/accessibility-measures-met/"><img src="./assets/images/first-project.jpg" class="first-project" alt="first-project"></a>
-                    </div>
-                </div>
+          </div>
+          <div>
+            <div class="third">
+              <div class="cell">
+                <a href="https://jason1chiu.github.io/accessibility-measures-met/">
+                  <img src="./assets/images/first-project.jpg" class="first-project" alt="first-project">
+                  <div>
+                    <h3>2nd Project</h3>
+                    <span>HTML/CSS</span>
+                  </div>
+                </a>
+              </div>
             </div>
-       </div>
-       <div class="sidebar">
-            <aside>
-                <h2 id="contact">Contact</h2>
-                <nav>
-                    <ul>
-                        <li><a href="#phone"><i class="fa-solid fa-phone"></i></a></li>
-                        <li><a href="#facebook"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="#github"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
-                    </ul>
-                </nav>
-            </aside>
+          </div>
         </div>
+      </div>
+      <div class="sidebar">
+        <aside>
+          <h2 id="contact">Contact</h2>
+          <div class="social-icons">
+            <nav>
+              <ul>
+                <li>
+                  <a href="#phone" class="social-icon social-icon--phone">
+                    <i class="fa-solid fa-phone tooltip"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#facebook" class="social-icon social-icon--facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#github" class="social-icon social-icon--github">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#linkedin" class="social-icon social-icon--linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+      </div>
     </main>
     <footer id="footer-contact">
-        <div>
-            <h2>Contact</h2>
-        </div>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="#phone"><i class="fa-solid fa-phone"></i></a></li>
-                    <li><a href="#facebook"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#github"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
-                </ul>
-            </nav>
-        </div>
+      <div>
+        <h2>Contact</h2>
+      </div>
+      <div class="social-icons">
+        <nav>
+          <ul>
+            <li>
+              <a href="#phone" class="social-icon social-icon--phone">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#facebook" class="social-icon social-icon--facebook">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#github" class="social-icon social-icon--github">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#linkedin" class="social-icon social-icon--linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

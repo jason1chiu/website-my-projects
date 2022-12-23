@@ -1,189 +1,198 @@
+*,body {
+    margin: 0
+}
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 0
 }
 
 body {
-    margin: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     position: relative;
     justify-content: space-between;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
     background-image: url(../images/tennis.jpeg);
-    background-size: cover;
+    background-size: cover
+}
+
+.navbar,header {
+    justify-content: center
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    padding: 30px;
-}
-
-main { 
-    display: flex;
-    flex-wrap: wrap;
-
+    padding: 30px
 }
 
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
     flex: 0 0 20%;
-    justify-content: center;
     overflow: auto;
     position: sticky;
     top: 0;
     align-self: flex-start;
-    padding: 20px;
+    padding: 20px
 }
 
 .navbar ul li a {
-    text-align: center;
+    background-color: #fff
+}
+
+.navbar,.sidebar,aside ul,main {
+    display: flex;
+    flex-wrap: wrap
 }
 
 .sidebar {
-    display: flex;
-    flex-wrap: wrap;
     flex: 0 0 20%;
     justify-content: center;
     visibility: visible;
-    padding: 20px;
+    padding: 20px
 }
 
 aside h2 {
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
-    justify-content: center;
+    flex: 0 0 100%
 }
 
 aside ul {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    list-style-type: none;
+    list-style-type: none
 }
 
 aside ul li a {
-    display: block;
-    border: 1px solid;
-    border-radius: .5em;
-    padding: .5em;
-    margin: .5em;
+    padding: .5em
 }
 
-.sidebar aside ul li a {
-    display: block;
-    border: 1px solid;
-    border-radius: .5em;
-    padding: .5em 1em;
-    margin: .5em;
-    text-align: center;
+.navbar ul li a,.sidebar aside ul li a,aside ul li a {
+    text-align: center
+}
+
+.about-me,.main-content,.work {
+    display: flex;
+    align-items: center
+}
+
+.main-content,aside h2 {
+    flex-wrap: wrap;
+    justify-content: center
 }
 
 .main-content {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 60%;
-    justify-content: center;
-    align-items: center;
+    flex: 0 0 60%
 }
 
-.about-me, .work {
-    display: flex;
+.about-me,.work {
     flex-direction: column;
     flex: 0 0 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 0
+}
+
+.first,p {
+    display: flex
 }
 
 p {
-    display: flex;
     padding: 20px;
     text-indent: 2em;
-    line-height: 2em;
+    line-height: 2em
 }
-.about-me h2 {
-    padding: 0 0 20px 0;
+
+h2 {
+    flex: 1 1 auto;
+    padding: 0 0 20px
 }
 
 .first {
-    display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
-.cell {
+.first .cell, .i {
     display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
+    flex-wrap: wrap
+}
+
+.first .cell {
     padding: 10px;
-    margin: 10px;
+    margin: 10px
+}
+
+.first .cell div, .second .cell div, .third .cell div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ff0;
+    border-radius: .5em;
+    padding: .5em 1em;
+    margin: .5em;
+    position: relative;
+    width: 175px;
+    bottom: 100px
 }
 
 .first-project {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100%
 }
 
 footer {
     display: block;
-    visibility: hidden;
+    visibility: hidden
 }
 
-footer h2 {
+footer h2, footer nav ul, h2 {
     display: flex;
-    justify-content: center;
+    justify-content: center
+}
+
+.first .cell, footer h2 {
     flex: 1 1 auto;
 }
 
 footer nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+    list-style-type: none
 }
 
-footer nav ul li i {
+.sidebar aside ul li a, aside ul li a, footer nav ul li i {
     display: block;
     border: 1px solid;
     border-radius: .5em;
-    padding: .5em 1em;
     margin: .5em;
+    background-color: #fff;
+    box-shadow: 6px 6px #00f
+}
+
+.sidebar aside ul li a,footer nav ul li i {
+    padding: .5em 1em
 }
 
 i {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    text-align: center
 }
 
-@media screen and (max-width: 2000px) {
-
+@media screen and (max-width:1500px) {
     body {
         background-image: url(../images/badminton.jpeg);
-        background-size: cover;
+        background-size: cover
     }
 }
 
-@media screen and (max-width: 1000px) {
-
-    body{
+@media screen and (max-width:1000px) {
+    body {
         background-image: url(../images/table-tennis.jpeg);
-        background-size: cover;
+        background-size: cover
     }
 
     .sidebar {
-        visibility: hidden;
+        visibility: hidden
     }
 
     footer {
-        visibility: visible;
+        visibility: visible
     }
 }

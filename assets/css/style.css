@@ -261,7 +261,7 @@ i {
 }
 
 /* Change to badminton */
-@media screen and (max-width:2000px) {
+@media screen and (max-width:1500px) {
     body {
         background-image: url(../images/badminton.jpeg);
         background-size: cover

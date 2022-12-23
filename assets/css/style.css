@@ -118,14 +118,14 @@ p {
     justify-content: space-between
 }
 
-.first .cell,.flexbox,i {
+.first .cell, .flexbox,i {
     display: flex;
     flex-wrap: wrap
 }
 
-.first .cell {
+.second .cell .third .cell {
     padding: 10px;
-    margin: 10px
+    margin: 10px;
 }
 
 .first .cell div,.second .cell div,.third .cell div {

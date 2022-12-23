@@ -118,9 +118,9 @@ p {
     justify-content: space-between
 }
 
-.first .cell, .flexbox, i {
+.first .cell, i {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .first .cell, .second .cell, .third .cell {
@@ -178,6 +178,84 @@ footer nav ul {
 
 i {
     text-align: center
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 110%;
+
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+.ftooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.ftooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 110%;
+
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.ftooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.ftooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
 }
 
 @media screen and (max-width:2000px) {

@@ -29,9 +29,9 @@ header {
     flex-wrap: wrap;
     align-items: center;
     padding: 170px;
-    background-image: url(../images/header-background.webp);
+    background-image: url(../images/header-background.jpeg);
     background-size: cover;
-    color: yellow;
+    background-color: lightgreen;
 }
 
 .navbar {
@@ -40,11 +40,12 @@ header {
     position: sticky;
     top: 0;
     align-self: flex-start;
-    padding: 20px
+    padding: 20px;
 }
 
 .navbar ul li a {
-    background-color: #fff
+    background-color: #fff;
+    text-decoration: none;
 }
 
 .navbar,.sidebar,aside ul,main {
@@ -73,11 +74,11 @@ aside ul li a {
     padding: .5em
 }
 
-.navbar ul li a,.sidebar aside ul li a,aside ul li a {
+.navbar ul li a, .sidebar aside ul li a, aside ul li a {
     text-align: center
 }
 
-.about-me,.main-content,.work {
+.about-me, .main-content, .work {
     display: flex;
     align-items: center
 }
@@ -88,14 +89,18 @@ aside ul li a {
     justify-content: center
 }
 
-.about-me,.work {
+.about-me, .work {
     flex-direction: column;
     flex: 0 0 100%;
     padding: 20px 0
 }
 
+.new-projects {
+    display: flex;
+}
+
 .first, p {
-    display: flex
+    display: flex;
 }
 
 p {
@@ -113,11 +118,6 @@ p {
     flex-wrap: wrap
 }
 
-.flexbox {
-    flex-direction: column;
-    justify-content: space-between
-}
-
 .first .cell, i {
     display: flex;
     flex-wrap: wrap;
@@ -128,7 +128,7 @@ p {
     margin: 10px;
 }
 
-.first .cell div, .second .cell div, .third .cell div {
+.first .cell div, .new .cell div {
     display: flex;
     flex-wrap: wrap;
     background-color: #ff0;
@@ -137,7 +137,8 @@ p {
     margin: .5em;
     position: relative;
     width: 175px;
-    bottom: 100px
+    bottom: 100px;
+    text-shadow: .2em .2em .3em silver;
 }
 
 .first-project {
@@ -178,6 +179,10 @@ footer nav ul {
 
 i {
     text-align: center
+}
+
+#footer-link {
+    display: none;
 }
 
 /* sidebar tooltip */
@@ -281,5 +286,13 @@ i {
 
     footer {
         visibility: visible
+    }
+
+    #sidebar-link {
+        display: none;
+    }
+
+    #footer-link {
+        display: block;
     }
 }

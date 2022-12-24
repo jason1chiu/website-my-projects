@@ -187,7 +187,7 @@ header a, .social-icons a {
 i {
     display: flex;
     flex-wrap: wrap;
-    text-align: center
+    text-align: center;
 }
 
 /* Change to badminton */
@@ -195,7 +195,7 @@ i {
 
     body {
         background-image: url(../images/badminton.webp);
-        background-size: cover
+        background-size: repeat;
     }
 }
 

@@ -8,14 +8,10 @@
 }
 
 body {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    position: relative;
-    justify-content: space-between;
     font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
+    background-image: url(../images/tennis.jpeg);
+    background-size: repeat;
 }
 
 header {
@@ -23,45 +19,32 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 170px;
-    background-image: url(../images/header-background.webp);
-    background-size: cover;
-    background-color: lightgreen;
-    color: yellow;
+    padding: 105px;
+    background-image: url(../images/border.png);
+    background-repeat: space;
 }
 
 header h1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+    color: yellow;
 }
 
-.about-me, .main-content, .work {
+main {
     display: flex;
-    align-items: center
-}
-
-.main-content {
     flex-wrap: wrap;
-    flex: 0 0 60%;
     justify-content: center;
-    background-image: url(../images/tennis.jpeg);
-    background-size: cover;
 }
 
-.about-me, .work {
-    flex-direction: column;
-    flex: 0 0 100%;
-    padding: 20px 0
-}
-
-.new-projects {
+h2 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .first, p {
     display: flex;
+    flex-wrap: wrap;
 }
 
 p {
@@ -71,8 +54,9 @@ p {
     text-align: justify;
 }
 
-.about-me h2 {
-    padding: 0 0 20px
+.new-projects {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -133,21 +117,12 @@ a {
     height: 100%;
 }
 
-footer h2, footer nav ul {
-    display: flex;
-    justify-content: center
-}
-
 .first .cell {
     flex: 1 1 auto;
 }
 
 i {
     text-align: center
-}
-
-#footer-link {
-    display: none;
 }
 
 /* tooltip */
@@ -193,7 +168,7 @@ i {
 /* Change to badminton */
 @media screen and (max-width:968px) {
 
-    main {
+    body {
         background-image: url(../images/badminton.jpeg);
         background-size: cover
     }
@@ -202,8 +177,7 @@ i {
 /* Change to table tennis */
 @media screen and (max-width:600px) {
     
-    main {
+    body {
         background-image: url(../images/table-tennis.jpeg);
-        background-size: cover
+        background-size: repeat;
     }
-}

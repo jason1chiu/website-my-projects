@@ -23,11 +23,11 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 170px;
+/*     padding: 170px;
     background-image: url(../images/header-background.webp);
     background-size: cover;
-    background-color: lightgreen;
-    color: yellow;
+    background-color: lightgreen; */
+    color: yellow; */
 }
 
 header h1 {

@@ -20,64 +20,16 @@ body {
     background-size: cover;
 }
 
-.navbar, header {
-    justify-content: center
-}
-
 header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 170px;
     background-image: url(../images/header-background.webp);
     background-size: cover;
     background-color: lightgreen;
     color: yellow;
-}
-
-.navbar {
-    flex: 0 0 20%;
-    overflow: auto;
-    position: sticky;
-    top: 0;
-    align-self: flex-start;
-    padding: 20px;
-}
-
-.navbar ul li a {
-    background-color: #fff;
-    text-decoration: none;
-}
-
-.navbar,.sidebar, aside ul,main {
-    display: flex;
-    flex-wrap: wrap
-}
-
-.sidebar {
-    flex: 0 0 20%;
-    justify-content: center;
-    visibility: visible;
-    padding: 20px
-}
-
-aside h2 {
-    flex-wrap: wrap;
-    flex: 0 0 100%
-}
-
-aside ul {
-    flex-direction: column;
-    list-style-type: none
-}
-
-aside ul li a {
-    padding: .5em
-}
-
-.navbar ul li a, .sidebar aside ul li a, aside ul li a {
-    text-align: center
 }
 
 .about-me, .main-content, .work {
@@ -148,35 +100,38 @@ p {
     height: 100%;
 }
 
-footer {
-    display: block;
-    visibility: hidden
-}
-
-aside h2,footer h2,footer nav ul {
+footer h2, footer nav ul {
     display: flex;
     justify-content: center
 }
 
-.first .cell, footer h2 {
+.first .cell {
     flex: 1 1 auto
 }
 
-footer nav ul {
-    list-style-type: none
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: .1em;
+    margin: 0;
 }
 
-.sidebar aside ul li a, aside ul li a, footer nav ul li i {
+li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1em;
+}
+
+a {
     display: block;
     border: 1px solid;
     border-radius: .5em;
     margin: .5em;
-    background-color: #fff;
-    box-shadow: 6px 6px #00f
-}
-
-.sidebar aside ul li a, footer nav ul li i {
-    padding: .5em 1em
+    background-color: white;
+    box-shadow: 6px 6px blue;
+    padding: .5em 1em;
 }
 
 i {
@@ -281,21 +236,5 @@ i {
     body {
         background-image: url(../images/table-tennis.jpeg);
         background-size: cover
-    }
-
-    .sidebar {
-        display: none;
-    }
-
-    footer {
-        visibility: visible
-    }
-
-    #sidebar-link {
-        display: none;
-    }
-
-    #footer-link {
-        display: block;
     }
 }

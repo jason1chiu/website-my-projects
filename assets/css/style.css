@@ -16,8 +16,6 @@ body {
     justify-content: space-between;
     font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
-    background-image: url(../images/tennis.jpeg);
-    background-size: cover;
 }
 
 header {
@@ -32,6 +30,13 @@ header {
     color: yellow;
 }
 
+header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
 .about-me, .main-content, .work {
     display: flex;
     align-items: center
@@ -40,7 +45,9 @@ header {
 .main-content {
     flex-wrap: wrap;
     flex: 0 0 60%;
-    justify-content: center
+    justify-content: center;
+    background-image: url(../images/tennis.jpeg);
+    background-size: cover;
 }
 
 .about-me, .work {
@@ -66,6 +73,32 @@ p {
 
 .about-me h2 {
     padding: 0 0 20px
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: .1em;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1em;
+}
+
+a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    margin: .5em;
+    background-color: white;
+    box-shadow: 6px 6px blue;
+    padding: .5em 1em;
 }
 
 .first {
@@ -106,32 +139,7 @@ footer h2, footer nav ul {
 }
 
 .first .cell {
-    flex: 1 1 auto
-}
-
-ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    padding: .1em;
-    margin: 0;
-}
-
-li {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 1em;
-}
-
-a {
-    display: block;
-    border: 1px solid;
-    border-radius: .5em;
-    margin: .5em;
-    background-color: white;
-    box-shadow: 6px 6px blue;
-    padding: .5em 1em;
+    flex: 1 1 auto;
 }
 
 i {
@@ -142,7 +150,7 @@ i {
     display: none;
 }
 
-/* sidebar tooltip */
+/* tooltip */
 .tooltip {
     position: relative;
     display: inline-block;
@@ -182,49 +190,10 @@ i {
     opacity: 1;
 }
 
-/* footer tooltip */
-.ftooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.ftooltip .tooltiptext {
-    visibility: hidden;
-    width: max-content;
-    background-color: purple;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 3px;
-
-    position: absolute;
-    z-index: 1;
-    top: 15px;
-    right: 110%;
-
-    opacity: 0;
-    transition: opacity 2s;
-}
-
-.ftooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent transparent black;
-}
-
-.ftooltip:hover .tooltiptext{
-    visibility: visible;
-    opacity: 1;
-}
-
 /* Change to badminton */
 @media screen and (max-width:968px) {
-    body {
+
+    main {
         background-image: url(../images/badminton.jpeg);
         background-size: cover
     }
@@ -233,7 +202,7 @@ i {
 /* Change to table tennis */
 @media screen and (max-width:600px) {
     
-    body {
+    main {
         background-image: url(../images/table-tennis.jpeg);
         background-size: cover
     }

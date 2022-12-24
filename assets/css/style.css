@@ -28,10 +28,12 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /*padding: 170px;
-    background-image: url(../images/header-background.jpeg);
+    justify-content: flex-start;
+    padding: 170px;
+    background-image: url(../images/header-background.webp);
     background-size: cover;
-    background-color: lightgreen;*/
+    background-color: lightgreen;
+    color: yellow;
 }
 
 .navbar {
@@ -48,7 +50,7 @@ header {
     text-decoration: none;
 }
 
-.navbar,.sidebar,aside ul,main {
+.navbar,.sidebar, aside ul,main {
     display: flex;
     flex-wrap: wrap
 }
@@ -274,7 +276,8 @@ i {
 }
 
 /* Change to table tennis */
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
+    
     body {
         background-image: url(../images/table-tennis.jpeg);
         background-size: cover

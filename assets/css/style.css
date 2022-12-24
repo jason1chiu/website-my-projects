@@ -266,7 +266,7 @@ i {
 }
 
 /* Change to badminton */
-@media screen and (max-width:1500px) {
+@media screen and (max-width:968px) {
     body {
         background-image: url(../images/badminton.jpeg);
         background-size: cover
@@ -274,14 +274,14 @@ i {
 }
 
 /* Change to table tennis */
-@media screen and (max-width:1000px) {
+@media screen and (max-width:400px) {
     body {
         background-image: url(../images/table-tennis.jpeg);
         background-size: cover
     }
 
     .sidebar {
-        visibility: hidden
+        display: none;
     }
 
     footer {

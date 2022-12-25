@@ -102,7 +102,6 @@ header a, .social-icons a {
 .container {
     display: flex;
     width: 100%;
-    height: max-content;
     flex-wrap: wrap;
 }
 
@@ -114,28 +113,20 @@ header a, .social-icons a {
 }
 
 .button {
-    flex: 1;
-    flex-wrap: wrap;
-}
-  
-.button.rowspan {
-    flex: 2;
+    display: flex;
     flex-wrap: wrap;
 }
 
 .first-project {
-    display: flex;
-    flex-wrap: wrap;
     padding: 20px 0 0 20px;
     width: 100%;
 }
 
 .new-project {
     display: flex;
-    flex-wrap: wrap;
-    padding: 20px 20px;
+    padding: 20px 20px 0 20px;
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
 .button.rowspan div, .button div {

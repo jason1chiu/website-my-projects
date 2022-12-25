@@ -12,7 +12,7 @@ body {
     font-size: large;
     font-weight: bolder;
     background-image: url(../images/tennis.webp);
-    background-size: repeat;
+    background-size: cover;
 }
 
 header {
@@ -145,7 +145,7 @@ header a, .social-icons a {
 
 .new-project {
     display: flex;
-    flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
     justify-content: flex-start;
     padding: 20px;
     width: 100%;
@@ -157,7 +157,7 @@ header a, .social-icons a {
     flex-flow: row wrap;
     padding: 10px;
     width: 100%;
-    height: 100;
+    height: 100%;
 }
 
 .button.rowspan div, .button div {

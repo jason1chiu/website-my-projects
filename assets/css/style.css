@@ -201,8 +201,8 @@ header a, .social-icons a {
 
     position: absolute;
     z-index: 1;
-    top: 15px;
-    right: 110%;
+    bottom: 100%;
+    left: -15px;
 
     opacity: 0;
     transition: opacity 2s;
@@ -211,12 +211,12 @@ header a, .social-icons a {
 .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
-    top: 50%;
-    left: 100%;
-    margin-top: -5px;
+    left: 50%;
+    top: 100%;
+    margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent transparent black;
+    border-color: black transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext{
@@ -246,3 +246,4 @@ i {
         background-image: url(../images/table-tennis.webp);
         background-size: cover;
     }
+}

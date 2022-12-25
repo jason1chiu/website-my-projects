@@ -101,37 +101,63 @@ header a, .social-icons a {
     border-width: 6px;
 }
 
-.container {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+.work {
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
-.column {
-    flex: 1;
+.container1 {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.column1 {
+    display: flex;
+    width: 50%;
+    flex: auto;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.column2 {
+    display: flex;
     flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
 }
 
 .button {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .first-project {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     padding: 20px;
     width: 100%;
+    height: 100%;
 }
 
 .new-project {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row-reverse wrap;
+    justify-content: flex-start;
     padding: 20px;
     width: 100%;
-    height: 50%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    width: 100%;
+    height: 100;
 }
 
 .button.rowspan div, .button div {
@@ -146,6 +172,17 @@ header a, .social-icons a {
     bottom: 100px;
     text-shadow: .2em .2em .3em silver;
 }
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    flex: 33.33%;
+  }
 
 /* tooltip */
 .tooltip {

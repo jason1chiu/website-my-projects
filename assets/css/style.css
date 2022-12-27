@@ -1,3 +1,5 @@
+
+
 *, body {
     margin: 0
 }
@@ -130,15 +132,10 @@ header a, .social-icons a {
     display: flex;
     flex-flow: row wrap;
     width: 66.35%;
-    height: 500px;
-    background-image: url(../images/1st-project.jpeg);
-    background-repeat: no-repeat;
-    background-size: calc(100%);
-}
-
-.first-project {
     background-image: url(../images/1st-project.jpeg);
     background-size: cover;
+    min-height: 500px;
+    
 }
 
 .flex-item {
@@ -147,6 +144,7 @@ header a, .social-icons a {
     text-shadow: .2em .2em .3em silver;
     height: 150px;
     display: flex;
+    flex-basis: calc(50% - 1em);
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
@@ -184,10 +182,6 @@ header a, .social-icons a {
     flex-flow: row wrap;
     width: 33%;
     background-image: url(../images/)
-}
-
-img {
-    width: 100%;
 }
 
 /* Change to badminton */

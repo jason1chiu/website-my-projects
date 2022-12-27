@@ -102,148 +102,148 @@ header a, .social-icons a {
 }
 
 .work {
-    padding-top: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-.container1 {
     display: flex;
-    width: 100%;
+    flex: 0 0 100%;
     flex-flow: row wrap;
     justify-content: center;
-    align-content: flex-start;
 }
 
-.column1 {
+.body {
     display: flex;
-    width: 50%;
+    flex-flow: row wrap;
     flex: auto;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
 }
 
-.column2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: center;
-}
-
-.button {
+.box {
     display: flex;
     flex-flow: row wrap;
+    width: 33%;
+    background: red;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.big-box {
+    display: flex;
+    flex-flow: row wrap;
+    width: 66.35%;
+    height: 500px;
+    background-image: url(../images/1st-project.jpeg);
+    background-repeat: no-repeat;
+    background-size: calc(100%);
 }
 
 .first-project {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 20px;
-    width: 100%;
-    height: 100%;
+    background-image: url(../images/1st-project.jpeg);
+    background-size: cover;
 }
 
-.new-project {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-}
-
-.container {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 10px;
-    width: 100%;
-    height: 100%;
-}
-
-.button.rowspan div, .button div {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ff0;
-    border-radius: .5em;
-    padding: .5em 1em;
-    margin: 0 2em;
-    position: relative;
-    width: 175px;
-    bottom: 100px;
+.flex-item {
+    background-color: transparent;
+    color: purple;
     text-shadow: .2em .2em .3em silver;
+    height: 150px;
+    display: flex;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    font-size: 0.9rem;
 }
 
-.columns {
+.flex-item:first-child {
+    height: 490px;
+    flex-basis: 100%;
+}
+
+.flex-item div {
+    background-color: yellow;
+    padding: 8px 10px;
+    margin: 400px 10px 0px;
+    border-radius: 2em;
+}
+
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+.box1 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/2nd-project.jpeg);
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/)
+}
+
+img {
     width: 100%;
-  }
-  
-  .column {
-    flex: 33.33%;
-  }
-
-/* tooltip */
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: max-content;
-    background-color: purple;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 3px;
-
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: -15px;
-
-    opacity: 0;
-    transition: opacity 2s;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext{
-    visibility: visible;
-    opacity: 1;
-}
-
-i {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 /* Change to badminton */
-@media screen and (max-width:968px) {
+@media screen and (max-width: 968px) {
 
     body {
         background-image: url(../images/badminton.webp);
         background-size: repeat;
     }
+
+    .box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 49%;
+        justify-content: space-between;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+
+    .big-box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 99%;
+        height: 500px;
+        background-image: url(../images/1st-project.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 /* Change to table tennis */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 700px) {
     
     body {
         background-image: url(../images/table-tennis.webp);
+        background-size: cover;
+    }
+
+    .box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: space-between;
+        height: 500px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .big-box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 500px;
+        background-image: url(../images/1st-project.jpeg);
+        background-repeat: no-repeat;
         background-size: cover;
     }
 }

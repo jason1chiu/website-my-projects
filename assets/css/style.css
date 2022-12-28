@@ -120,8 +120,8 @@ header a, .social-icons a {
     border-radius: 50%;
     border: 1px solid;
     border-color: purple green;
-    border-style: solid;
-    border-width: 6px;
+    border-style: groove;
+    border-width: 10px;
 }
 
 .work {
@@ -225,7 +225,6 @@ header a, .social-icons a {
     z-index: 1;
     bottom: 100%;
     left: -15px;
-
     opacity: 0;
     transition: opacity 2s;
 }
@@ -276,17 +275,6 @@ i {
         flex-flow: row wrap;
         width: 99%;
         height: 340px;
-    }
-
-    .flex-item div {
-        background-color: yellow;
-        padding: 8px 10px;
-        margin: auto 15px 0px;
-        border-radius: 2em;
-    }
-    
-    .flex-item h3 {
-        font-size: 1.6rem;
     }
 }
 

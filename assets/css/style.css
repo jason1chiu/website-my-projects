@@ -135,7 +135,6 @@ header a, .social-icons a {
     background-image: url(../images/1st-project.jpeg);
     background-size: cover;
     min-height: 500px;
-    
 }
 
 .flex-item {
@@ -175,13 +174,135 @@ header a, .social-icons a {
     background-image: url(../images/2nd-project.jpeg);
     height: 500px;
     margin-bottom: 10px;
+    background-size: cover;
 }
 
 .box2 {
     display: flex;
     flex-flow: row wrap;
     width: 33%;
-    background-image: url(../images/)
+    background-image: url(../images/3rd-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/4th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/5th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/6th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/7th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box7 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/8th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box8 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/9th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box9 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/10th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box10 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    background-image: url(../images/11th-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: -15px;
+
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+i {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 /* Change to badminton */
@@ -199,6 +320,8 @@ header a, .social-icons a {
         justify-content: space-between;
         height: 500px;
         margin-bottom: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .big-box {
@@ -240,4 +363,6 @@ header a, .social-icons a {
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+
 }

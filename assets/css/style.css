@@ -17,6 +17,8 @@ body {
     background-size: cover;
 }
 
+
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +27,10 @@ header {
     padding: 105px;
     background-image: url(../images/header-background.webp);
     background-repeat: round;
+}
+
+nav {
+    margin: auto;
 }
 
 header h1 {
@@ -50,7 +56,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10px;
+    margin: auto;
 }
 
 p {
@@ -69,13 +75,13 @@ ul {
     align-items: center;
     list-style: none;
     padding: .1em;
-    margin: 0;
+
 }
 
 li {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 1em;
+
 }
 
 header a, .social-icons a {
@@ -117,24 +123,40 @@ header a, .social-icons a {
     width: 100%;
     justify-content: space-around;
     margin: auto;
+    padding-right: 6px;
 }
 
 .box {
     display: flex;
     flex-flow: row wrap;
     width: 33%;
-    background: red;
-    height: 500px;
-    margin-bottom: 10px;
+    height: 340px;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
 .big-box {
     display: flex;
     flex-flow: row wrap;
-    width: 66.35%;
-    background-image: url(../images/1st-project.jpeg);
-    background-size: cover;
-    min-height: 500px;
+    width: 66.4%;
+}
+
+.box a {
+    position: relative;
+    overflow: hidden;
+}
+
+.big-box img, .box img {
+    display: block;
+    width: 100%;
+    height: 340px;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
 }
 
 .flex-item {
@@ -152,112 +174,20 @@ header a, .social-icons a {
 }
 
 .flex-item:first-child {
-    height: 490px;
-    flex-basis: 100%;
+    flex: 1 0 100%;
+    height: 100%;
 }
 
 .flex-item div {
     background-color: yellow;
     padding: 8px 10px;
-    margin: 400px 10px 0px;
+    margin: auto 15px 0px;
     border-radius: 2em;
 }
 
 .flex-item h3 {
     font-size: 1.6rem;
 }
-
-.box1 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/2nd-project.jpeg);
-    height: 500px;
-    margin-bottom: 10px;
-    background-size: cover;
-}
-
-.box2 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/3rd-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box3 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/4th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box4 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/5th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box5 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/6th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box6 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/7th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box7 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/8th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box8 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/9th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box9 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/10th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.box10 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
-    background-image: url(../images/11th-project.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 
 /* tooltip */
 .tooltip {
@@ -318,7 +248,7 @@ i {
         flex-flow: row wrap;
         width: 49%;
         justify-content: space-between;
-        height: 500px;
+        height: 340px;
         margin-bottom: 10px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -328,16 +258,24 @@ i {
         display: flex;
         flex-flow: row wrap;
         width: 99%;
-        height: 500px;
-        background-image: url(../images/1st-project.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 340px;
+    }
+
+    .flex-item div {
+        background-color: yellow;
+        padding: 8px 10px;
+        margin: auto 15px 0px;
+        border-radius: 2em;
+    }
+    
+    .flex-item h3 {
+        font-size: 1.6rem;
     }
 }
 
 /* Change to table tennis */
 @media screen and (max-width: 700px) {
-    
+
     body {
         background-image: url(../images/table-tennis.webp);
         background-size: cover;
@@ -348,21 +286,16 @@ i {
         flex-flow: row wrap;
         width: 100%;
         justify-content: space-between;
-        height: 500px;
+        height: 340px;
         margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .big-box {
         display: flex;
         flex-flow: row wrap;
+        margin-left: 6px;
         width: 100%;
-        height: 500px;
-        background-image: url(../images/1st-project.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 340px;
     }
-
 
 }

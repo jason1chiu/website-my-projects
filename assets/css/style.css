@@ -15,8 +15,6 @@ body {
     background-size: cover;
 }
 
-
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -80,6 +78,10 @@ p {
     border-color: gold silver;
     border-style: groove;
     border-width: 10px;
+}
+
+.paragraph {
+    padding: 10px;
 }
 
 ul {

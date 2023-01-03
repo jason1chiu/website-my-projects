@@ -1,15 +1,15 @@
-/* specify the margin of the entire webpage and body */
+/* positioning of the webpage and body */
 *, body {
     margin: 0
 }
 
-/* style of the entire webpage */
+/* style and positioning of the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0
 }
 
-/* Style of the body based on font and background images */
+/* Style of the body */
 body {
     font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
@@ -18,7 +18,7 @@ body {
     background-size: cover;
 }
 
-/* Style of the header */
+/* Style and positioning of the header */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@ nav {
     margin: auto;
 }
 
-/* positioning and style of the heading in the header */
+/* style and positioning of the heading in the header */
 header h1 {
     display: block;
     margin: auto;
@@ -51,12 +51,12 @@ header h1 {
     border-width: 10px;
 }
 
-/* style of the section classed 'about' */
+/* positioning of the section classed 'about' */
 .about {
     padding: 10px;
 }
 
-/* style of the avatar image */
+/* positionining of the section classed 'avatar-image' */
 .avatar-image {
     padding: 10px;
 }
@@ -68,7 +68,7 @@ main {
     justify-content: center;
 }
 
-/* style of all the headings at the secondary level */
+/* style and positioning of all secondary-level headings */
 h2 {
     display: flex;
     flex-wrap: wrap;
@@ -91,7 +91,7 @@ p {
     border-width: 10px;
 }
 
-/* positiong of the section classed 'paragraph' */
+/* positioning of the section classed 'paragraph' */
 .paragraph {
     padding: 10px;
 }
@@ -106,7 +106,7 @@ ul {
     padding: .1em;
 }
 
-/* style of the items in the unordered list */
+/* style of the listed items in the unordered list */
 li {
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +142,7 @@ header a, .social-icons a {
     border-width: 10px;
 }
 
-/* style and position of the section classed 'work' */
+/* style and positioning of the section classed 'work' */
 .work {
     display: flex;
     flex: 0 0 100%;
@@ -216,7 +216,7 @@ header a, .social-icons a {
     font-size: 0.9rem;
 }
 
-/* style and positioning of the first child of the flex item */
+/* style of the first child of the flex item */
 .flex-item:first-child {
     flex: 1 0 100%;
     height: 100%;
@@ -230,7 +230,7 @@ header a, .social-icons a {
     border-radius: 2em;
 }
 
-/* style of the heading at the tertiary level inside the flex item */
+/* style of the tertiary-level heading inside the flex item */
 .flex-item h3 {
     font-size: 1.6rem;
 }
@@ -241,7 +241,7 @@ header a, .social-icons a {
     display: inline-block;
 }
 
-/* style and positioning of the tooltip to appear hidden */
+/* style and positioning of the hidden tooltip and its text */
 .tooltip .tooltiptext {
     visibility: hidden;
     width: max-content;
@@ -283,15 +283,17 @@ i {
     text-align: center;
 }
 
-/* Change to badminton */
+
 /* Changes in styles and positions when screen reach a max width of 968px */
 @media screen and (max-width: 968px) {
 
+    /* style of the body */
     body {
         background-image: url(../images/badminton.webp);
         background-size: repeat;
     }
 
+    /* style and positioning of the section classed 'box' */
     .box {
         display: flex;
         flex-flow: row wrap;
@@ -303,6 +305,7 @@ i {
         background-size: cover;
     }
 
+    /* style and positioning of the section classed 'big-box' */
     .big-box {
         display: flex;
         flex-flow: row wrap;
@@ -311,15 +314,17 @@ i {
     }
 }
 
-/* Change to table tennis */
+
 /* Changes in styles and positions when screen reach a max width of 700px */
 @media screen and (max-width: 700px) {
 
+    /* style of the body */
     body {
         background-image: url(../images/table-tennis.webp);
         background-size: cover;
     }
 
+    /* style and positioning of the section classed 'box' */
     .box {
         display: flex;
         flex-flow: row wrap;
@@ -329,6 +334,7 @@ i {
         margin-bottom: 10px;
     }
 
+    /* style and positioning of the section classed 'big-box' */
     .big-box {
         display: flex;
         flex-flow: row wrap;

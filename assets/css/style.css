@@ -1,12 +1,15 @@
+/* specify the margin of the entire webpage and body */
 *, body {
     margin: 0
 }
 
+/* style of the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0
 }
 
+/* Style of the body based on font and background images */
 body {
     font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
@@ -15,6 +18,7 @@ body {
     background-size: cover;
 }
 
+/* Style of the header */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -25,10 +29,12 @@ header {
     background-repeat: round;
 }
 
+/* positioning of navigation list */
 nav {
     margin: auto;
 }
 
+/* positioning and style of the heading in the header */
 header h1 {
     display: block;
     margin: auto;
@@ -45,20 +51,24 @@ header h1 {
     border-width: 10px;
 }
 
+/* style of the section classed 'about' */
 .about {
     padding: 10px;
 }
 
+/* style of the avatar image */
 .avatar-image {
     padding: 10px;
 }
 
+/* style of the main section */
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* style of all the headings at the secondary level */
 h2 {
     display: flex;
     flex-wrap: wrap;
@@ -66,6 +76,7 @@ h2 {
     margin: auto;
 }
 
+/* style and positinging of all the paragraphs */
 p {
     display: flex;
     flex-wrap: wrap;
@@ -80,10 +91,12 @@ p {
     border-width: 10px;
 }
 
+/* positiong of the section classed 'paragraph' */
 .paragraph {
     padding: 10px;
 }
 
+/* style and positioning of the unordered list */
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -93,11 +106,13 @@ ul {
     padding: .1em;
 }
 
+/* style of the items in the unordered list */
 li {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* style and positioning of the navigations */
 header a, .social-icons a {
     display: block;
     border: 1px solid;
@@ -113,6 +128,7 @@ header a, .social-icons a {
     border-width: 10px;
 }
 
+/* style and positioning of the section classed 'avatar' */
 .avatar {
     text-align: center;
     display: block;
@@ -126,6 +142,7 @@ header a, .social-icons a {
     border-width: 10px;
 }
 
+/* style and position of the section classed 'work' */
 .work {
     display: flex;
     flex: 0 0 100%;
@@ -133,6 +150,7 @@ header a, .social-icons a {
     justify-content: center;
 }
 
+/* style and positioning of the section classed 'body' */
 .body {
     display: flex;
     flex-flow: row wrap;
@@ -143,6 +161,7 @@ header a, .social-icons a {
     padding-right: 6px;
 }
 
+/* style and positioning of the section classed 'box' */
 .box {
     display: flex;
     flex-flow: row wrap;
@@ -153,12 +172,14 @@ header a, .social-icons a {
     overflow: hidden;
 }
 
+/* style of the section classed 'big-box' */
 .big-box {
     display: flex;
     flex-flow: row wrap;
     width: 66.4%;
 }
 
+/* style and positioning of the image navigations for sections classed 'box' */
 .box a {
     position: relative;
     overflow: hidden;
@@ -167,6 +188,7 @@ header a, .social-icons a {
     border-width: 10px 18px 18px 10px;
 }
 
+/* style and positioning of the images */
 .big-box img, .box img {
     display: block;
     width: 100%;
@@ -179,6 +201,7 @@ header a, .social-icons a {
     position: absolute;
 }
 
+/* style and positioning of the section classed 'flex-item' */
 .flex-item {
     background-color: transparent;
     color: purple;
@@ -193,11 +216,13 @@ header a, .social-icons a {
     font-size: 0.9rem;
 }
 
+/* style and positioning of the first child of the flex item */
 .flex-item:first-child {
     flex: 1 0 100%;
     height: 100%;
 }
 
+/* style and positioning of the sections inside the flex item */
 .flex-item section {
     background-color: yellow;
     padding: 8px 10px;
@@ -205,16 +230,18 @@ header a, .social-icons a {
     border-radius: 2em;
 }
 
+/* style of the heading at the tertiary level inside the flex item */
 .flex-item h3 {
     font-size: 1.6rem;
 }
 
-/* tooltip */
+/* style and positioning of the tooltip for phone */
 .tooltip {
     position: relative;
     display: inline-block;
 }
 
+/* style and positioning of the tooltip to appear hidden */
 .tooltip .tooltiptext {
     visibility: hidden;
     width: max-content;
@@ -231,6 +258,7 @@ header a, .social-icons a {
     transition: opacity 2s;
 }
 
+/* style and positioning of the tooltip's arrow to appear visible after cursor lies on top of icon */
 .tooltip .tooltiptext::after {
     content: "";
     position: absolute;
@@ -242,11 +270,13 @@ header a, .social-icons a {
     border-color: black transparent transparent transparent;
 }
 
+/* style and positioning of the tooltip to appear visible after cursor lies on top of icon */
 .tooltip:hover .tooltiptext{
     visibility: visible;
     opacity: 1;
 }
 
+/* style and position of all icons */
 i {
     display: flex;
     flex-wrap: wrap;
@@ -254,6 +284,7 @@ i {
 }
 
 /* Change to badminton */
+/* Changes in styles and positions when screen reach a max width of 968px */
 @media screen and (max-width: 968px) {
 
     body {
@@ -281,6 +312,7 @@ i {
 }
 
 /* Change to table tennis */
+/* Changes in styles and positions when screen reach a max width of 700px */
 @media screen and (max-width: 700px) {
 
     body {

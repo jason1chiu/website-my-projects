@@ -338,7 +338,6 @@ i {
     .big-box {
         display: flex;
         flex-flow: row wrap;
-        margin-left: 6px;
         width: 100%;
         height: 340px;
     }

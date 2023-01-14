@@ -86,9 +86,6 @@ p {
     text-indent: 2em;
     line-height: 2em;
     text-align: justify;
-    border-color: gold silver;
-    border-style: groove;
-    border-width: 10px;
 }
 
 /* positioning of the section classed 'paragraph' */
@@ -176,16 +173,13 @@ header a, .social-icons a {
 .big-box {
     display: flex;
     flex-flow: row wrap;
-    width: 66.4%;
+    width: 66.3%;
 }
 
 /* style and positioning of the image navigations for sections classed 'box' */
 .box a {
     position: relative;
     overflow: hidden;
-    border-color: gold silver;
-    border-style: groove;
-    border-width: 10px 18px 18px 10px;
 }
 
 /* style and positioning of the images */

@@ -1,3 +1,11 @@
+.card {
+    height: 30rem;
+}
+
+img {
+    height: 300px;
+}
+
 /* /* style and positioning of the unordered list */
 ul {
     display: flex;
@@ -30,13 +38,7 @@ li {
     border-width: 10px;
 }
 
-.card {
-    height: 510px;
-}
 
-img {
-    height: 340px;
-}
 
 /* style and positioning of the tooltip for phone */
 .tooltip {

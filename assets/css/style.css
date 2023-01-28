@@ -1,14 +1,3 @@
-
-/* Style of the body */
-/* body {
-    font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
-    font-size: large;
-    font-weight: bolder;
-    background-image: url(../images/tennis.webp);
-    background-size: cover;
-} */
-
-
 /* /* style and positioning of the unordered list */
 ul {
     display: flex;
@@ -41,98 +30,12 @@ li {
     border-width: 10px;
 }
 
-
-/* style and positioning of the section classed 'work' */
-.work {
-    display: flex;
-    flex: 0 0 100%;
-    flex-flow: row wrap;
-    justify-content: center;
+.card {
+    height: 510px;
 }
 
-/* style and positioning of the section classed 'body' */
-.body {
-    display: flex;
-    flex-flow: row wrap;
-    flex: auto;
-    width: 100%;
-    justify-content: space-around;
-    margin: auto;
-    padding-right: 6px;
-}
-
-/* style and positioning of the section classed 'box' */
-.box {
-    display: flex;
-    flex-flow: row wrap;
-    width: 33%;
+img {
     height: 340px;
-    margin-bottom: 5px;
-    position: relative;
-    overflow: hidden;
-}
-
-/* style of the section classed 'big-box' */
-.big-box {
-    display: flex;
-    flex-flow: row wrap;
-    width: 66.4%;
-}
-
-/* style and positioning of the image navigations for sections classed 'box' */
-.box a {
-    position: relative;
-    overflow: hidden;
-    border-color: gold silver;
-    border-style: groove;
-    border-width: 10px 18px 18px 10px;
-}
-
-/* style and positioning of the images */
-.big-box img, .box img {
-    display: block;
-    width: 100%;
-    height: 340px;
-    top: auto;
-    bottom: auto;
-    right: 0;
-    left: 0;
-    z-index: -1;
-    position: absolute;
-}
-
-/* style and positioning of the section classed 'flex-item' */
-.flex-item {
-    background-color: transparent;
-    color: purple;
-    text-shadow: .2em .2em .3em silver;
-    height: 150px;
-    display: flex;
-    flex-basis: calc(50% - 1em);
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-size: 150%;
-    font-size: 0.9rem;
-}
-
-/* style of the first child of the flex item */
-.flex-item:first-child {
-    flex: 1 0 100%;
-    height: 100%;
-}
-
-/* style and positioning of the sections inside the flex item */
-.flex-item section {
-    background-color: yellow;
-    padding: 8px 10px;
-    margin: auto 15px 0px;
-    border-radius: 2em;
-}
-
-/* style of the tertiary-level heading inside the flex item */
-.flex-item h3 {
-    font-size: 1.6rem;
 }
 
 /* style and positioning of the tooltip for phone */

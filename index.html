@@ -21,32 +21,25 @@
       href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    
   </head>
 
-  <body>
-    
-    <header>
-      <h1>Jason Chiu</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="./assets/images/Jason's Resume.pdf">Resume</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
+  <body class="bg-primary text-light">
+    <section class="row">
+      <section class="col-12 col-md-6">
+        <h1>Jason Chiu</h1>
+      </section>
+      <section class="col-12 col-md-6">
+        <nav class="navbar">
+          <div class="container fluid">
+          <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#about">About</a></button>
+          <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#work">Work</a></button>
+          <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#contact">Contact</a></button>
+          <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#resume">Resume</a></button>
+          <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#thesis">Thesis</a></button>
+        </div>
+        </nav>
+      </section>
+    </section>
 
       <section class="about">
         <h2 id="about">About Me</h2>
@@ -233,7 +226,6 @@
         </section>
 
      </section>
-    </main>
 
     <script src="https://kit.fontawesome.com/07f4fcb269.js" crossorigin="anonymous"></script>
     <script

@@ -1,13 +1,13 @@
-/* positioning of the webpage and body */
-*, body {
+/* /* positioning of the webpage and body */
+/* *, body {
     margin: 0
 }
 
 /* style and positioning of the entire webpage */
-* {
+/* * {
     box-sizing: border-box;
     padding: 0
-}
+} */ */ */
 
 /* Style of the body */
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 /* Style and positioning of the header */
-header {
+/* header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -30,12 +30,12 @@ header {
 }
 
 /* positioning of navigation list */
-nav {
+/* nav {
     margin: auto;
-}
+} */
 
-/* style and positioning of the heading in the header */
-header h1 {
+/* /* style and positioning of the heading in the header */
+/* header h1 {
     display: block;
     margin: auto;
     color: black;
@@ -49,7 +49,7 @@ header h1 {
     border-color: gold silver;
     border-style: groove;
     border-width: 10px;
-}
+} */ */ */
 
 /* positioning of the section classed 'about' */
 .about {
@@ -96,7 +96,7 @@ p {
     padding: 10px;
 }
 
-/* style and positioning of the unordered list */
+/* /* style and positioning of the unordered list */
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +113,7 @@ li {
 }
 
 /* style and positioning of the navigations */
-header a, .social-icons a {
+/* header a, .social-icons a {
     display: block;
     border: 1px solid;
     border-radius: .5em;
@@ -126,7 +126,7 @@ header a, .social-icons a {
     border-color: gold silver;
     border-style: groove;
     border-width: 10px;
-}
+} */ */
 
 /* style and positioning of the section classed 'avatar' */
 .avatar {
@@ -281,65 +281,4 @@ i {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-}
-
-
-/* Changes in styles and positions when screen reach a max width of 968px */
-@media screen and (max-width: 968px) {
-
-    /* style of the body */
-    body {
-        background-image: url(../images/badminton.webp);
-        background-size: repeat;
-    }
-
-    /* style and positioning of the section classed 'box' */
-    .box {
-        display: flex;
-        flex-flow: row wrap;
-        width: 49%;
-        justify-content: space-between;
-        height: 340px;
-        margin-bottom: 10px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    /* style and positioning of the section classed 'big-box' */
-    .big-box {
-        display: flex;
-        flex-flow: row wrap;
-        width: 99%;
-        height: 340px;
-    }
-}
-
-
-/* Changes in styles and positions when screen reach a max width of 700px */
-@media screen and (max-width: 700px) {
-
-    /* style of the body */
-    body {
-        background-image: url(../images/table-tennis.webp);
-        background-size: cover;
-    }
-
-    /* style and positioning of the section classed 'box' */
-    .box {
-        display: flex;
-        flex-flow: row wrap;
-        width: 100%;
-        justify-content: space-between;
-        height: 340px;
-        margin-bottom: 10px;
-    }
-
-    /* style and positioning of the section classed 'big-box' */
-    .big-box {
-        display: flex;
-        flex-flow: row wrap;
-        width: 100%;
-        height: 340px;
-    }
-
 }

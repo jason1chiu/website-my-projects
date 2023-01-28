@@ -1,4 +1,345 @@
+/* positioning of the webpage and body */
+*, body {
+    margin: 0
+}
+
+/* style and positioning of the entire webpage */
 * {
     box-sizing: border-box;
+    padding: 0
+}
+
+/* Style of the body */
+body {
+    font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    background-image: url(../images/tennis.webp);
+    background-size: cover;
+}
+
+/* Style and positioning of the header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 105px;
+    background-image: url(../images/header-background.webp);
+    background-repeat: round;
+}
+
+/* positioning of navigation list */
+nav {
     margin: auto;
+}
+
+/* style and positioning of the heading in the header */
+header h1 {
+    display: block;
+    margin: auto;
+    color: black;
+    border: 1px solid;
+    border-radius: .5em;
+    background-color: white;
+    box-shadow: 6px 6px blue;
+    padding: .1em .3em;
+    text-decoration: none;
+    text-align: center;
+    border-color: gold silver;
+    border-style: groove;
+    border-width: 10px;
+}
+
+/* positioning of the section classed 'about' */
+.about {
+    padding: 10px;
+}
+
+/* positionining of the section classed 'avatar-image' */
+.avatar-image {
+    padding: 10px;
+}
+
+/* style of the main section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* style and positioning of all secondary-level headings */
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+/* style and positinging of all the paragraphs */
+p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-indent: 2em;
+    line-height: 2em;
+    text-align: justify;
+    border-color: gold silver;
+    border-style: groove;
+    border-width: 10px;
+}
+
+/* positioning of the section classed 'paragraph' */
+.paragraph {
+    padding: 10px;
+}
+
+/* style and positioning of the unordered list */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: .1em;
+}
+
+/* style of the listed items in the unordered list */
+li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* style and positioning of the navigations */
+header a, .social-icons a {
+    display: block;
+    border: 1px solid;
+    border-radius: .5em;
+    margin: .5em;
+    background-color: white;
+    box-shadow: 6px 6px blue;
+    padding: .5em 1em;
+    text-decoration: none;
+    text-align: center;
+    border-color: gold silver;
+    border-style: groove;
+    border-width: 10px;
+}
+
+/* style and positioning of the section classed 'avatar' */
+.avatar {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: purple green;
+    border-style: groove;
+    border-width: 10px;
+}
+
+/* style and positioning of the section classed 'work' */
+.work {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* style and positioning of the section classed 'body' */
+.body {
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+    padding-right: 6px;
+}
+
+/* style and positioning of the section classed 'box' */
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    width: 33%;
+    height: 340px;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* style of the section classed 'big-box' */
+.big-box {
+    display: flex;
+    flex-flow: row wrap;
+    width: 66.4%;
+}
+
+/* style and positioning of the image navigations for sections classed 'box' */
+.box a {
+    position: relative;
+    overflow: hidden;
+    border-color: gold silver;
+    border-style: groove;
+    border-width: 10px 18px 18px 10px;
+}
+
+/* style and positioning of the images */
+.big-box img, .box img {
+    display: block;
+    width: 100%;
+    height: 340px;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+/* style and positioning of the section classed 'flex-item' */
+.flex-item {
+    background-color: transparent;
+    color: purple;
+    text-shadow: .2em .2em .3em silver;
+    height: 150px;
+    display: flex;
+    flex-basis: calc(50% - 1em);
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    font-size: 0.9rem;
+}
+
+/* style of the first child of the flex item */
+.flex-item:first-child {
+    flex: 1 0 100%;
+    height: 100%;
+}
+
+/* style and positioning of the sections inside the flex item */
+.flex-item section {
+    background-color: yellow;
+    padding: 8px 10px;
+    margin: auto 15px 0px;
+    border-radius: 2em;
+}
+
+/* style of the tertiary-level heading inside the flex item */
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+/* style and positioning of the tooltip for phone */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* style and positioning of the hidden tooltip and its text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: -15px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+/* style and positioning of the tooltip's arrow to appear visible after cursor lies on top of icon */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+/* style and positioning of the tooltip to appear visible after cursor lies on top of icon */
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* style and position of all icons */
+i {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+/* Changes in styles and positions when screen reach a max width of 968px */
+@media screen and (max-width: 968px) {
+
+    /* style of the body */
+    body {
+        background-image: url(../images/badminton.webp);
+        background-size: repeat;
+    }
+
+    /* style and positioning of the section classed 'box' */
+    .box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 49%;
+        justify-content: space-between;
+        height: 340px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* style and positioning of the section classed 'big-box' */
+    .big-box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 99%;
+        height: 340px;
+    }
+}
+
+
+/* Changes in styles and positions when screen reach a max width of 700px */
+@media screen and (max-width: 700px) {
+
+    /* style of the body */
+    body {
+        background-image: url(../images/table-tennis.webp);
+        background-size: cover;
+    }
+
+    /* style and positioning of the section classed 'box' */
+    .box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: space-between;
+        height: 340px;
+        margin-bottom: 10px;
+    }
+
+    /* style and positioning of the section classed 'big-box' */
+    .big-box {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 340px;
+    }
+
 }

@@ -24,5 +24,3 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 GitHub Page: https://jason1chiu.github.io/website-my-projects/ <br>
 GitHub Repository: https://github.com/jason1chiu/website-my-projects
-
-![jason1chiu github io_website-my-projects_(Nest Hub)](https://user-images.githubusercontent.com/119711904/210286934-59086275-fe56-4e6f-bac9-f82ab3b08bde.png)

@@ -20,230 +20,232 @@
       rel="stylesheet"
       href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    
+    <link rel="stylesheet" href="./assets/css/style.css"/>
   </head>
 
-  <body>
-    
-    <header>
-      <h1>Jason Chiu</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="./assets/images/Jason's Resume.pdf">Resume</a>
-          </li>
-        </ul>
+  <body class="bg-primary text-light">
+    <section class="row jumbotron m-auto align-items-center">
+      <header class="col-12 col-md-6">
+        <h1>Jason Chiu</h1>
+      </header>
+      <nav class="navbar btn-group col-12 col-md-6" role="group">
+        <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#about">About</a></button>
+        <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#work">Work</a></button>
+        <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#contact">Contact</a></button>
+        <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#resume">Resume</a></button>
+        <button type="button" class="btn btn-light border-primary mx-1"><a class="text-black" href="#thesis">Thesis</a></button>
       </nav>
-    </header>
+    </section>
 
-    <main>
+    <section class="row text-center">
+      <h2 class="col-12" id="about">About Me</h2>
+    </section>
 
-      <section class="about">
-        <h2 id="about">About Me</h2>
-      </section>
-
-      <section>
-        <section class="avatar-image">
-          <img src="./assets/images/avatar.webp" class="avatar" alt="avatar">
-        </section>
-
-        <section class="paragraph">
-          <p>
-                Hello everyone! Welcome to my portfolio website. The name is Chien-Cheng Chiu, but you may address me as Jason. I graduated
-                with a master's degree in Applied Mathematics in 2022, and one of my favourite part of my education was using
-                different programming languages throughout my years of studies to compute numerical algorithms and/or plot graphs.
-                It is one of the reasons why I decided to expand my horizon and learn to use new programming languages. I love origami as you can see
-                as my header background image, but I also love racquet sports, espeically tennis. As the webpage shrinks in width, tennis balls become badminton
-                shuttlecocks and then finally table tennis balls based on their direct proportionality in their different court sizes.
-          </p> 
-          <p>
-                The mathematical programming language that I mainly used was MatLab; however, I have come across learning a bit of R,
-                SQL, Python, Java and many other languages. Furthermore, I use a free resource tool known as LaTeX to write up my documents, and make 
-                slides that also requires some knowledge in coding in a new language. These tools that I have used all seems very similar to 
-                what I have learned so far except for CSS. Though CSS might be a little difficult for me to take in right now, I still have
-                the patience to try to achieve the creative designs that I can always imagine in my head. In fact, this website design shows
-                how much I like to research and learn new ways that I haven't been taught before.
-          </p>
-          <p>
-                During the only first three weeks of my certificate program in coding, I have touched about using Chrome Developer tools, and
-                the neat one is the Lighthouse which analyze how well your website performs in performance, accessibility, best practices and
-                SEO, which I had not yet covered during my studies. I learned to rescale my images such that webpage load more efficiently, which I have applied for this page. 
-                This website is an example on my current expertise in coding and would display more on future projects.
+    <section class="row align-items-center justify-content-between">
+      <img class="col-12 col-md-3 rounded align-items-center" src="./assets/images/avatar.webp" alt="avatar">
+      <section class="col-12 col-md-9 carousel slide carousel-fade" id="carouselExampleFade">
+        <section class="carousel-inner">
+          <section class="carousel-item active">
+            <p>
+              Hello everyone! Welcome to my portfolio website. The name is Chien-Cheng Chiu, but you may address me as Jason. I graduated
+              with a master's degree in Applied Mathematics in 2022, and one of my favourite part of my education was using
+              different programming languages throughout my years of studies to compute numerical algorithms and/or plot graphs.
+              It is one of the reasons why I decided to expand my horizon and learn to use new programming languages. I love origami as you can see
+              as my header background image, but I also love racquet sports, espeically tennis. As the webpage shrinks in width, tennis balls become badminton
+              shuttlecocks and then finally table tennis balls based on their direct proportionality in their different court sizes.
+            </p>
+          <section class="carousel-item">
+            <p>
+              The mathematical programming language that I mainly used was MatLab; however, I have come across learning a bit of R,
+              SQL, Python, Java and many other languages. Furthermore, I use a free resource tool known as LaTeX to write up my documents, and make 
+              slides that also requires some knowledge in coding in a new language. These tools that I have used all seems very similar to 
+              what I have learned so far except for CSS. Though CSS might be a little difficult for me to take in right now, I still have
+              the patience to try to achieve the creative designs that I can always imagine in my head. In fact, this website design shows
+              how much I like to research and learn new ways that I haven't been taught before.
+            </p>
+          </section>
+          <section class="carousel-item">
+            <p>
+              During the only first three weeks of my certificate program in coding, I have touched about using Chrome Developer tools, and
+              the neat one is the Lighthouse which analyze how well your website performs in performance, accessibility, best practices and
+              SEO, which I had not yet covered during my studies. I learned to rescale my images such that webpage load more efficiently, which I have applied for this page. 
+              This website is an example on my current expertise in coding and would display more on future projects.
             </p>
           </section>
         </section>
+        <section>
+          <button class="btn carousel-control-prev align-items-end" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="btn carousel-control-next align-items-end" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </section>
       </section>
+    </section>
 
-      <section class="col-12 text-center">
+    <section class="row text-center my-3">
         <h2 id="work">Work</h2>
-      </section>
-
-      <section class="body">
-        <section class="box big-box">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 1st-project">
-            <img src="./assets/images/1st-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>Semantic HTML</h3>
-              <span>HTML</span>
-            </section>
-          </a>
+        <section class="col-12 col-md-9">
+          <img class="rounded" src="./assets/images/1st-project.webp" alt="first-project">
         </section>
-        <section class="box box1">
-          <a href="https://jason1chiu.github.io/website-my-projects/" target="blank" class="flex-item 2nd-project">
-            <img src="./assets/images/2nd-project.webp" class="project" alt="second-project">
-            <section>
-              <h3>Portfolio</h3>
-              <span>HTML/CSS</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box2">
-          <a href="https://jason1chiu.github.io/password-generator/" target="blank" class="flex-item 3rd-project">
-            <img src="./assets/images/3rd-project.webp" class="project" alt="third-project">
-            <section>
-              <h3>Password Generator</h3>
-              <span>JavaScript</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box3">
-          <a href="https://jason1chiu.github.io/javascript-quiz/" target="blank" class="flex-item 4th-project">
-            <img src="./assets/images/4th-project.webp" class="project" alt="fourth-project">
-            <section>
-              <h3>Math Quiz</h3>
-              <span>JS with Web APIs</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box4">
-          <a href="https://jason1chiu.github.io/calendar/" target="blank" class="flex-item 5th-project">
-            <img src="./assets/images/5th-project.webp" class="project" alt="fifth-project">
-            <section>
-              <h3>5th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box5">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 6th-project">
-            <img src="./assets/images/6th-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>6th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box6">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 7th-project">
-            <img src="./assets/images/7th-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>7th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box7">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 8th-project">
-            <img src="./assets/images/8th-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>8th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box8">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 9th-project">
-            <img src="./assets/images/9th-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>9th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box9">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 10th-project">
-            <img src="./assets/images/10th-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>10th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
-        </section>
-        <section class="box box10">
-          <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank" class="flex-item 11st-project">
-            <img src="./assets/images/11th-project.webp" class="project" alt="first-project">
-            <section>
-              <h3>11th Project</h3>
-              <span>Coming Soon</span>
-            </section>
-          </a>
+        <section class="col-12 col-md-3">
+          <img class="rounded" src="./assets/images/2nd-project.webp" alt="second-project">
         </section>
       </section>
+    </section>
 
-      <section>
-        <h2 id="contact">Contact</h2>
-        <section class="social-icons">
-         <nav>
-           <ul>
-             <li class="tooltip phone">
-               <a href="#phone" class="social-icon social-icon--phone">
-                 <i class="fa-solid fa-phone"></i>
-                 <span class="tooltiptext">(123) 456-7890</span>
-                 <section>
-                   <span>Phone</span>
-                 </section>
-               </a>
-             </li>
-             <li class="facebook">
-               <a href="https://www.facebook.com/jasonchiu1991/" target="blank" class="social-icon social-icon--facebook">
-                 <i class="fa-brands fa-facebook"></i>
-                 <section>
-                   <span>Facebook</span>
-                 </section>
-               </a>
-             </li>
-             <li class="github">
-               <a href="https://github.com/jason1chiu/" target="blank" class="social-icon social-icon--github">
-                 <i class="fa-brands fa-github"></i>
-                 <section>
-                   <span>Github</span>
-                 </section>
-               </a>
-             </li>
-             <li class="linkedin">
-               <a href="https://www.linkedin.com/in/chien-cheng-chiu-0a0930257/" target="blank" class="social-icon social-icon--linkedin">
-                 <i class="fa-brands fa-linkedin"></i>
-                 <section>
-                   <span>LinkedIn</span>
-                 </section>
-               </a>
-             </li>
-           </ul>
-         </nav>
-        </section>
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-9">
+        <a href="https://jason1chiu.github.io/accessibility-measures-met/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Semantic HTML</h3>
+            <span>HTML</span>
+          </button>
+        </a>
+      </section>
+      <section class="col-12 col-md-3">
+        <a href="https://jason1chiu.github.io/website-my-projects/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Portfolio</h3>
+            <span>Currently Updating</span>
+          </button>
+        </a>
+      </section>
+    </section>
 
-     </section>
-    </main>
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-6"> 
+        <img class="rounded" src="./assets/images/3rd-project.webp" alt="third-project">
+      </section>
+      <section class="col-12 col-md-6">
+        <img src="./assets/images/4th-project.webp"  alt="fourth-project">
+      </section>
+    </section>
 
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-6">
+        <a href="https://jason1chiu.github.io/password-generator/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Password Generator</h3>
+            <span>JavaScript</span>
+          </button>
+        </a>
+      </section>
+      <section class="col-12 col-md-6">
+        <a href="https://jason1chiu.github.io/javascript-quiz/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Javascript Quiz</h3>
+            <span>HTML/CSS/JS</span>
+          </button>
+        </a>
+      </section>
+    </section>
+
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-6">
+        <img class="rounded" src="./assets/images/5th-project.webp" alt="fifth-project">
+      </section>
+      <section class="col-12 col-md-6">
+        <img class="rounded" src="./assets/images/6th-project.webp" alt="sixth-project">
+      </section>
+    </section>
+
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-6">
+        <a href="https://jason1chiu.github.io/calendar/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Calendar</h3>
+            <span>JQuery/BootStrap</span>
+          </button>
+        </a>
+      </section>
+      <section class="col-12 col-md-6">
+        <a href="https://jason1chiu.github.io/weather-dashboard/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Weather Dashboard</h3>
+            <span>JQuery/Bootstrap/Server-Side APIs</span>
+          </button>
+        </a>
+      </section>
+    </section>
+
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-6">
+        <img class="rounded" src="./assets/images/7th-project.webp" alt="seventh-project">
+      </section>
+      <section class="col-12 col-md-6">
+        <img class="rounded" src="./assets/images/8th-project.webp" alt="fourth-project">
+      </section>
+    </section>
+
+    <section class="row text-center my-3">
+      <section class="col-12 col-md-6">
+        <a href="https://jason1chiu.github.io/password-generator/" target="blank">
+          <button type="button" class="btn btn-light border-primary">
+            <h3>Coming Soon</h3>
+            <span>Coming Soon</span>
+          </button>
+        </a>
+      </section>
+      <section class="col-12 col-md-6">
+        <button type="button" class="btn btn-light border-primary">
+          <h3>Coming Soon</h3>
+          <span>Coming Soon</span>
+        </button>
+      </section>
+    </section>
+
+    <section class="row jumbotron m-auto align-items-center">
+        <h2 class="col-12 col-md-6" id="contact">Contact</h2>
+        <nav class="navbar btn-group col-12 col-md-6" role="group">
+          <button type="button" class="btn btn-light border-primary mx-1">
+            <a href="#phone" class="text-black">
+            <i class="fa-solid fa-phone"></i>
+              <span>(123) 456-7890</span>
+              <section>
+                <span>Phone</span>
+              </section>
+            </a>
+          </button>
+           <button type="button" class="btn btn-light border-primary mx-1">
+            <a href="https://www.facebook.com/jasonchiu1991/" target="blank" class="text-black">
+              <i class="fa-brands fa-facebook"></i>
+              <section>
+                <span>Facebook</span>
+              </section>
+              </a>
+          </button>
+          <button type="button" class="btn btn-light border-primary mx-1">
+            <a href="https://github.com/jason1chiu/" target="blank" class="text-black">
+              <i class="fa-brands fa-github"></i>
+              <section>
+                <span>Github</span>
+              </section>
+            </a>
+          </button>
+          <button type="button" class="btn btn-light border-primary mx-1">
+            <a href="https://www.linkedin.com/in/chien-cheng-chiu-0a0930257/" target="blank" class="text-black">
+              <i class="fa-brands fa-linkedin"></i>
+              <section>
+                <span>LinkedIn</span>
+              </section>
+            </a>
+          </button>
+      </nav>
+    </section>
+
+<!-- Scripts -->
     <script src="https://kit.fontawesome.com/07f4fcb269.js" crossorigin="anonymous"></script>
     <script
     src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
     crossorigin="anonymous"
-  ></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="./assets/js/script.js"></script>
-
+    ></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

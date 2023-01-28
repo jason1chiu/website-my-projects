@@ -13,11 +13,6 @@
     padding: 10px;
 }
 
-/* positionining of the section classed 'avatar-image' */
-.avatar-image {
-    padding: 10px;
-}
-
 /* style of the main section */
 main {
     display: flex;

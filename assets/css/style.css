@@ -1,55 +1,12 @@
-/* /* positioning of the webpage and body */
-/* *, body {
-    margin: 0
-}
-
-/* style and positioning of the entire webpage */
-/* * {
-    box-sizing: border-box;
-    padding: 0
-} */ */ */
 
 /* Style of the body */
-body {
+/* body {
     font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
     font-size: large;
     font-weight: bolder;
     background-image: url(../images/tennis.webp);
     background-size: cover;
-}
-
-/* Style and positioning of the header */
-/* header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 105px;
-    background-image: url(../images/header-background.webp);
-    background-repeat: round;
-}
-
-/* positioning of navigation list */
-/* nav {
-    margin: auto;
 } */
-
-/* /* style and positioning of the heading in the header */
-/* header h1 {
-    display: block;
-    margin: auto;
-    color: black;
-    border: 1px solid;
-    border-radius: .5em;
-    background-color: white;
-    box-shadow: 6px 6px blue;
-    padding: .1em .3em;
-    text-decoration: none;
-    text-align: center;
-    border-color: gold silver;
-    border-style: groove;
-    border-width: 10px;
-} */ */ */
 
 /* positioning of the section classed 'about' */
 .about {
@@ -76,21 +33,6 @@ h2 {
     margin: auto;
 }
 
-/* style and positinging of all the paragraphs */
-p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    margin-bottom: 10px;
-    text-indent: 2em;
-    line-height: 2em;
-    text-align: justify;
-    border-color: gold silver;
-    border-style: groove;
-    border-width: 10px;
-}
-
 /* positioning of the section classed 'paragraph' */
 .paragraph {
     padding: 10px;
@@ -113,7 +55,7 @@ li {
 }
 
 /* style and positioning of the navigations */
-/* header a, .social-icons a {
+.social-icons a {
     display: block;
     border: 1px solid;
     border-radius: .5em;
@@ -126,21 +68,8 @@ li {
     border-color: gold silver;
     border-style: groove;
     border-width: 10px;
-} */ */
-
-/* style and positioning of the section classed 'avatar' */
-.avatar {
-    text-align: center;
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid;
-    border-color: purple green;
-    border-style: groove;
-    border-width: 10px;
 }
+
 
 /* style and positioning of the section classed 'work' */
 .work {

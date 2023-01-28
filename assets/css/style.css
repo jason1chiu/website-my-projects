@@ -8,30 +8,6 @@
     background-size: cover;
 } */
 
-/* positioning of the section classed 'about' */
-.about {
-    padding: 10px;
-}
-
-/* style of the main section */
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* style and positioning of all secondary-level headings */
-h2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-
-/* positioning of the section classed 'paragraph' */
-.paragraph {
-    padding: 10px;
-}
 
 /* /* style and positioning of the unordered list */
 ul {

@@ -1,44 +1,6 @@
-.card {
-    height: 30rem;
-}
-
 img {
     height: 300px;
 }
-
-/* /* style and positioning of the unordered list */
-ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: .1em;
-}
-
-/* style of the listed items in the unordered list */
-li {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* style and positioning of the navigations */
-.social-icons a {
-    display: block;
-    border: 1px solid;
-    border-radius: .5em;
-    margin: .5em;
-    background-color: white;
-    box-shadow: 6px 6px blue;
-    padding: .5em 1em;
-    text-decoration: none;
-    text-align: center;
-    border-color: gold silver;
-    border-style: groove;
-    border-width: 10px;
-}
-
-
 
 /* style and positioning of the tooltip for phone */
 .tooltip {
@@ -79,11 +41,4 @@ li {
 .tooltip:hover .tooltiptext{
     visibility: visible;
     opacity: 1;
-}
-
-/* style and position of all icons */
-i {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
 }

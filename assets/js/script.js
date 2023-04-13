@@ -1,9 +1,9 @@
 $(function() {
   // Select all cards and hide them initially
-  $(".card").hide();
+  $(".row").hide();
 
   // Slide down each card with a delay
-  $(".card").each(function(i) {
+  $(".row").each(function(i) {
     $(this).delay(1000 * i).slideDown();
   });
 

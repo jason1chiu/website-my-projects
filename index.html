@@ -1,393 +1,496 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jason Chiu Web Developer's Portfolio</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jason Chiu Web Developer's Portfolio</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-  <body class="bg-light text-dark">
-    <section class="row p-3">
-      <section class="col-12 col-md-6">
-        <h1 class="text-center">Jason Chiu</h1>
-      </section>
-      <section class="col-12 col-md-6">
-        <nav class="navbar">
-          <section class="container-fluid btn-group justify-content-center align-items-center">
-            <button type="button" class="btn btn-light btn-link"><a class="text-black" href="#about">About</a></button>
-            <button type="button" class="btn btn-light btn-link"><a class="text-black" href="#individualProjects">Individual Projects</a></button>
-            <button type="button" class="btn btn-light btn-link"><a class="text-black" href="#groupProjects">Group Projects</a></button>
-            <button type="button" class="btn btn-light btn-link"><a class="text-black" href="#contact">Contact</a></button>
-            <button type="button" class="btn btn-light btn-link"><a class="text-black" href="./assets/links/Resume.pdf">Resume</a></button>
-            <button type="button" class="btn btn-light btn-link"><a class="text-black" href="./assets/links/Master's Thesis.pdf">Thesis</a></button>
+<body class="bg-light text-dark">
+  <section class="row p-3">
+    <section class="col-12 col-md-6">
+      <h1 class="text-center">Jason Chiu</h1>
+    </section>
+    <section class="col-12 col-md-6">
+      <nav class="navbar">
+        <section class="container-fluid btn-group justify-content-center align-items-center">
+          <button type="button" class="btn btn-light btn-link"><a class="text-black" href="#about">About</a></button>
+          <button type="button" class="btn btn-light btn-link"><a class="text-black"
+              href="#individualProjects">Individual Projects</a></button>
+          <button type="button" class="btn btn-light btn-link"><a class="text-black" href="#groupProjects">Group
+              Projects</a></button>
+          <button type="button" class="btn btn-light btn-link"><a class="text-black"
+              href="#contact">Contact</a></button>
+          <button type="button" class="btn btn-light btn-link"><a class="text-black"
+              href="./assets/links/Resume.pdf">Resume</a></button>
+          <button type="button" class="btn btn-light btn-link"><a class="text-black"
+              href="./assets/links/Master's Thesis.pdf">Thesis</a></button>
+        </section>
+      </nav>
+    </section>
+  </section>
+
+  <section class="row">
+    <section class="col-12">
+      <h2 class="text-center" id="about">About Me</h2>
+    </section>
+  </section>
+
+  <section class="row">
+    <section class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+      <img src="./assets/images/avatar.webp" class="rounded-circle" alt="avatar">
+    </section>
+    <section class="col-12 col-md-9 d-flex justify-content-center align-items-center">
+      <section class="accordion text-dark p-5 w-100" id="accordionExample">
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Past
+            </button>
+          </h2>
+          <section id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <section class="accordion-body">
+              Greetings, and welcome to my portfolio website. My name is Chien-Cheng Chiu, though I prefer to be called
+              Jason.
+              I obtained a master's degree in Applied Mathematics in 2022, and one of the highlights of my academic
+              journey was utilizing
+              various programming languages to perform numerical computations and generate visualizations. This
+              experience motivated me
+              to explore new programming languages and broaden my technical expertise. Outside of my professional
+              pursuits, I enjoy hobbies
+              such as technology, origami, and tennis.
+            </section>
           </section>
-        </nav>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              Present
+            </button>
+          </h2>
+          <section id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <section class="accordion-body">
+              In my academic pursuits, I primarily utilized MatLab as my mathematical programming language of choice.
+              However, I have also gained proficiency in several other programming languages, including R, SQL, Python,
+              and Java.
+              Additionally, I employ the use of LaTeX, a free resource tool, to draft documents and produce slides,
+              which requires a certain level of coding knowledge. While these tools share many similarities with what I
+              have learned thus far,
+              I have encountered challenges with CSS. Nevertheless, I remain steadfast in my pursuit to realize the
+              imaginative designs that I envision.
+              As evidenced by this website's design, I have a deep passion for researching and learning new methods that
+              may be outside of my formal education.
+            </section>
+          </section>
+        </section>
+        <section class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              Future
+            </button>
+          </h2>
+          <section id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <section class="accordion-body">
+              In the initial three weeks of my certificate program to become a full-stack developer,
+              I received an introduction to utilizing Chrome Developer tools, with a particularly useful tool being
+              Lighthouse.
+              Lighthouse performs an analysis of website performance across various dimensions, such as accessibility,
+              best practices, and SEO.
+              Through this tool, I acquired knowledge that I had not previously been exposed to in my studies.
+              Additionally, I gained the ability to rescale images, thus enhancing webpage load efficiency.
+              This website is a testament to my current coding expertise and serves as a sample of my capabilities,
+              with future projects to further showcase my proficiency.
+            </section>
+          </section>
+        </section>
       </section>
     </section>
 
     <section class="row">
       <section class="col-12">
-        <h2 class="text-center" id="about">About Me</h2>
+        <h2 class="text-center" id="individualProjects">Individual Projects</h2>
       </section>
     </section>
 
-    <section class="row">
-      <section class="col-12 col-md-3 d-flex justify-content-center align-items-center">
-        <img src="./assets/images/avatar.webp" class="rounded-circle" alt="avatar">
-      </section>
-      <section class="col-12 col-md-9 d-flex justify-content-center align-items-center">
-        <section class="accordion text-dark p-5 w-100" id="accordionExample">
-          <section class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Past
-              </button>
-            </h2>
-            <section id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <section class="accordion-body">
-                Greetings, and welcome to my portfolio website. My name is Chien-Cheng Chiu, though I prefer to be called Jason. 
-                I obtained a master's degree in Applied Mathematics in 2022, and one of the highlights of my academic journey was utilizing 
-                various programming languages to perform numerical computations and generate visualizations. This experience motivated me 
-                to explore new programming languages and broaden my technical expertise. Outside of my professional pursuits, I enjoy hobbies 
-                such as technology, origami, and tennis.
-              </section>
-            </section>
-          </section>
-          <section class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                Present
-              </button>
-            </h2>
-            <section id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <section class="accordion-body">
-                In my academic pursuits, I primarily utilized MatLab as my mathematical programming language of choice. 
-                However, I have also gained proficiency in several other programming languages, including R, SQL, Python, and Java. 
-                Additionally, I employ the use of LaTeX, a free resource tool, to draft documents and produce slides, 
-                which requires a certain level of coding knowledge. While these tools share many similarities with what I have learned thus far, 
-                I have encountered challenges with CSS. Nevertheless, I remain steadfast in my pursuit to realize the imaginative designs that I envision. 
-                As evidenced by this website's design, I have a deep passion for researching and learning new methods that may be outside of my formal education.
-              </section>
-            </section>
-          </section>
-          <section class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                Future
-              </button>
-            </h2>
-            <section id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <section class="accordion-body">
-                In the initial three weeks of my certificate program to become a full-stack developer, 
-                I received an introduction to utilizing Chrome Developer tools, with a particularly useful tool being Lighthouse. 
-                Lighthouse performs an analysis of website performance across various dimensions, such as accessibility, best practices, and SEO. 
-                Through this tool, I acquired knowledge that I had not previously been exposed to in my studies. 
-                Additionally, I gained the ability to rescale images, thus enhancing webpage load efficiency. 
-                This website is a testament to my current coding expertise and serves as a sample of my capabilities, 
-                with future projects to further showcase my proficiency.
-              </section>
-            </section>
-          </section>
-        </section>
-      </section>
-
-      <section class="row">
-        <section class="col-12">
-          <h2 class="text-center" id="individualProjects">Individual Projects</h2>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12">
-          <div class="card my-3">
-            <img src="./assets/images/1st-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">1<sup>st</sup> Project (HTML/CSS/Git)</h5>
-              <p class="card-text">A webpage conforming to accessibility standards is expected to utilize semantic HTML elements in its source code, demonstrate a logical flow independent of styling and positioning, include accessible alt attributes for image elements, use heading attributes in sequential order, and feature a clear and descriptive title element.</p>
-              <a href="https://jason1chiu.github.io/accessibility-measures-met/" class="btn btn-primary" target="_blank">Accessibility Standards</a>
-            </div>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12 col-md-6">
-          <div class="card my-3">
-            <img src="./assets/images/2nd-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">2<sup>nd</sup> Project (Advanced CSS)</h5>
-              <p class="card-text">To evaluate a potential employee's past work, their portfolio should include the developer's name, a recent photo or avatar, and navigation links to sections about them, their work, and contact information, with all links functioning properly, titled images of their applications, with the first image being larger, and a responsive layout that adapts to different screen sizes and devices.</p>
-              <a href="https://jason1chiu.github.io/website-my-projects/" class="btn btn-primary" target="_blank">Portfolio Website </a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-6">
-          <div class="card my-3">
-            <img src="./assets/images/3rd-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">3<sup>rd</sup> Project (JavaScript)</h5>
-              <p class="card-text">To obtain a secure new password, a system should provide a button that generates one and prompts the user to select password criteria, specify a length between 8 and 128 characters, and confirm which character types to include, with validation of the user's input, the selection of at least one character type, and the system's generation of a password that meets the criteria, which should be displayed in an alert or on the page.</p>
-              <a href="https://jason1chiu.github.io/password-generator/" class="btn btn-primary" target="_blank">Password Generator</a>
-            </div>
-          </div>
-        </section>
-      </section>
-      
-      <section class="row m-auto">
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/4th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">4<sup>th</sup> Project (Web APIs)</h5>
-              <p class="card-text">During a code quiz, clicking the start button should trigger a timer and display the first question, and subsequent questions should follow once each is answered, with an incorrect answer resulting in a deduction of time from the timer, ending the game when all questions are answered or the timer reaches 0, with the opportunity to save one's initials and score.</p>
-              <a href="https://jason1chiu.github.io/javascript-quiz/" class="btn btn-primary" target="_blank">Math Quiz</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/5th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">5<sup>th</sup> Project (Third-Party APIs)</h5>
-              <p class="card-text">When using a daily planner to schedule tasks, the planner should display the current day at the top of the calendar upon opening, present color-coded time blocks for standard business hours below it, allow entry of events by clicking on a time block and saving them by clicking the save button, and store them in local storage to persist through page refresh.</p>
-              <a href="https://jason1chiu.github.io/calendar/" class="btn btn-primary" target="_blank">Calendar</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/6th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">6<sup>th</sup> Project (Server-Side APIs)</h5>
-              <p class="card-text">A weather dashboard featuring form inputs should provide current and future weather conditions for any searched city, and store the city in the search history, with current weather displaying the city name, date, weather icon, temperature, humidity, and wind speed, and future weather displaying a 5-day forecast of the date, weather icon, temperature, wind speed, and humidity, and a selected city from the search history should display its current and future weather conditions.</p>
-              <a href="https://jason1chiu.github.io/weather-dashboard/" class="btn btn-primary" target="_blank">Weather Dashboard</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/7th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">7<sup>th</sup> Project (Node.js)</h5>
-              <p class="card-text">For a command-line application that accepts user input, it should prompt for information about the user's repository to generate a professional README.md file including a project title and sections for Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions, with entered information for each section appropriately included, a license option list with badge and notice in the License section of the README, the user's GitHub username or email address and instructions for contacting them in the Questions section, and functioning Table of Contents links.</p>
-              <a href="https://github.com/jason1chiu/Professional_README_Generator" class="btn btn-primary" target="_blank">Professional README Generator</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/8th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">8<sup>th</sup> Project (OOP)</h5>
-              <p class="card-text">A command-line application that prompts the user for team member information should generate a well-formatted team roster HTML file, with clickable email addresses opening the user's default email program, and clickable GitHub usernames opening the user's browser to the corresponding profile, and prompts the user for the team manager's name, employee ID, email address, and office number upon startup, with a menu for adding engineers or interns, and taking the user back to the menu after each entry, and exiting the application and generating the HTML file when the user finishes building their team.</p>
-              <a href="https://github.com/jason1chiu/Team-Profile-Generator" class="btn btn-primary" target="_blank">Team Profile Generator</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/9th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">9<sup>th</sup> Project (Express.js)</h5>
-              <p class="card-text">Upon opening the Note Taker application, a landing page with a link to a notes page is presented, where clicking on the link displays a page with existing notes listed in the left-hand column, and empty fields to enter a new note title and text in the right-hand column; after entering the new note title and text, a Save icon appears in the navigation at the top of the page, clicking on which saves the new note and displays it in the left-hand column with other existing notes, and clicking on an existing note in the list displays it in the right-hand column; moreover, clicking on the Write icon in the navigation at the top of the page presents the user with empty fields to enter a new note title and text in the right-hand column.</p>
-              <a href="https://still-lake-39330.herokuapp.com" class="btn btn-primary" target="_blank">Note Taker</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/10th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">10<sup>th</sup> Project (SQL)</h5>
-              <p class="card-text">Upon starting a command-line application that accepts user input, options are presented to view all departments, roles, and employees, add a department, role, or employee, or update an employee's role, with the corresponding actions presenting formatted tables and prompting the user to enter necessary information which is added to the database.</p>
-              <a href="https://github.com/jason1chiu/employee-tracker" class="btn btn-primary" target="_blank">Employee Management System</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/11th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">11<sup>th</sup> Project (ORM)</h5>
-              <p class="card-text">By configuring environment variables, seeding the development database, and testing API routes using Insomnia Core, a functional Express.js API can be connected to a MySQL database using Sequelize and used to create, update, and delete data.</p>
-              <a href="https://github.com/jason1chiu/E-Commerce-Backend" class="btn btn-primary" target="_blank">E-commerce Back End</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/12th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">12<sup>th</sup> Project (MVC)</h5>
-              <p class="card-text">Upon visiting a CMS-style blog site, the user is presented with a homepage containing existing blog posts and navigation links for the homepage and dashboard, and given the option to log in or sign up, whereupon they can create a username and password and be logged in, after which they can view existing blog posts and leave comments, add or update their own blog posts in the dashboard, delete or update their posts, and log out; if the user is idle for a set time they will need to log in again before they can add, update, or delete comments.</p>
-              <a href="https://aqueous-tundra-56406.herokuapp.com" class="btn btn-primary" target="_blank">Tech Blog</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/13th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">13<sup>th</sup> Project (GitHub Gist)</h5>
-              <p class="card-text">A web development student wants a regex tutorial explaining a specific search pattern with a descriptive title, introductory paragraph, summary, table of contents, detailed explanations of each component, and author information with a link to their GitHub profile.</p>
-              <a href="https://gist.github.com/jason1chiu/0bacace6d866d227305bf49c3d0f393c" class="btn btn-primary" target="_blank">Email Validation Regex Tutorial</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/14th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">14<sup>th</sup> Project (NoSQL)</h5>
-              <p class="card-text">A social media startup requests an API with a NoSQL database to handle large amounts of unstructured data, including syncing Mongoose models to MongoDB and successfully performing CRUD operations for users, thoughts, reactions, and friends.</p>
-              <a href="https://github.com/jason1chiu/Social-Network-API" class="btn btn-primary" target="_blank">Social Network API</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/15th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">15<sup>th</sup> Project (PWA)</h5>
-              <p class="card-text">The app is a text editor web application that allows developers to create and save notes or code snippets with or without an internet connection using IndexedDB, with a registered service worker using workbox that pre-caches static assets and proper build scripts for a webpack application when deployed to Heroku.</p>
-              <a href="https://serene-castle-73912.herokuapp.com" class="btn btn-primary" target="_blank">Text Editor</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/16th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/17th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/18th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12">
-          <h2 class="text-center" id="groupProjects">Group Projects</h2>
-        </section>
-      </section>
-
-      <section class="row m-auto">
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/19th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Group Project 1</h5>
-              <p class="card-text">The Pokemon Counter Generator is a tool that allows users to search for a Pokemon, view its name, type, weaknesses, adversaries, and a related video, and store previous searches for reference with a history button.</p>
-              <a href="https://ashketchumandpikachu.github.io/PokemonBattle/" class="btn btn-primary" target="_blank">Pokemon Counter Generator</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/20th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Group Project 2</h5>
-              <p class="card-text">Nomad Nebula is a comprehensive web-based tool that enables stargazers to explore the celestial realm and connect with other enthusiasts through its interactive platform, featuring a myriad of features including daily updates on stargazing conditions, profile management, community engagement, and zodiac sign information.</p>
-              <a href="https://the-nomad-nebula.herokuapp.com" class="btn btn-primary" target="_blank">Nomad Nebula</a>
-            </div>
-          </div>
-        </section>
-        <section class="col-12 col-md-4">
-          <div class="card my-3">
-            <img src="./assets/images/21th-project.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Group Project 2</h5>
-              <p class="card-text">Nomad Nebula is a comprehensive web-based tool that enables stargazers to explore the celestial realm and connect with other enthusiasts through its interactive platform, featuring a myriad of features including daily updates on stargazing conditions, profile management, community engagement, and zodiac sign information.</p>
-              <a href="https://the-nomad-nebula.herokuapp.com" class="btn btn-primary" target="_blank">Nomad Nebula</a>
-            </div>
-          </div>
-        </section>
-      </section>
-
-    </section class="row">
+    <section class="row m-auto">
       <section class="col-12">
-        <h2 class=text-center id="contact">Contact</h2>
+        <div class="card my-3">
+          <img src="./assets/images/1st-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">1<sup>st</sup> Project (HTML/CSS/Git)</h5>
+            <p class="card-text">A webpage conforming to accessibility standards is expected to utilize semantic HTML
+              elements in its source code, demonstrate a logical flow independent of styling and positioning, include
+              accessible alt attributes for image elements, use heading attributes in sequential order, and feature a
+              clear and descriptive title element.</p>
+            <a href="https://jason1chiu.github.io/accessibility-measures-met/" class="btn btn-primary"
+              target="_blank">Accessibility Standards</a>
+          </div>
       </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-6">
+        <div class="card my-3">
+          <img src="./assets/images/2nd-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">2<sup>nd</sup> Project (Advanced CSS)</h5>
+            <p class="card-text">To evaluate a potential employee's past work, their portfolio should include the
+              developer's name, a recent photo or avatar, and navigation links to sections about them, their work, and
+              contact information, with all links functioning properly, titled images of their applications, with the
+              first image being larger, and a responsive layout that adapts to different screen sizes and devices.</p>
+            <a href="https://jason1chiu.github.io/website-my-projects/" class="btn btn-primary"
+              target="_blank">Portfolio Website </a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-6">
+        <div class="card my-3">
+          <img src="./assets/images/3rd-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">3<sup>rd</sup> Project (JavaScript)</h5>
+            <p class="card-text">To obtain a secure new password, a system should provide a button that generates one
+              and prompts the user to select password criteria, specify a length between 8 and 128 characters, and
+              confirm which character types to include, with validation of the user's input, the selection of at least
+              one character type, and the system's generation of a password that meets the criteria, which should be
+              displayed in an alert or on the page.</p>
+            <a href="https://jason1chiu.github.io/password-generator/" class="btn btn-primary" target="_blank">Password
+              Generator</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/4th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">4<sup>th</sup> Project (Web APIs)</h5>
+            <p class="card-text">During a code quiz, clicking the start button should trigger a timer and display the
+              first question, and subsequent questions should follow once each is answered, with an incorrect answer
+              resulting in a deduction of time from the timer, ending the game when all questions are answered or the
+              timer reaches 0, with the opportunity to save one's initials and score.</p>
+            <a href="https://jason1chiu.github.io/javascript-quiz/" class="btn btn-primary" target="_blank">Math
+              Quiz</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/5th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">5<sup>th</sup> Project (Third-Party APIs)</h5>
+            <p class="card-text">When using a daily planner to schedule tasks, the planner should display the current
+              day at the top of the calendar upon opening, present color-coded time blocks for standard business hours
+              below it, allow entry of events by clicking on a time block and saving them by clicking the save button,
+              and store them in local storage to persist through page refresh.</p>
+            <a href="https://jason1chiu.github.io/calendar/" class="btn btn-primary" target="_blank">Calendar</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/6th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">6<sup>th</sup> Project (Server-Side APIs)</h5>
+            <p class="card-text">A weather dashboard featuring form inputs should provide current and future weather
+              conditions for any searched city, and store the city in the search history, with current weather
+              displaying the city name, date, weather icon, temperature, humidity, and wind speed, and future weather
+              displaying a 5-day forecast of the date, weather icon, temperature, wind speed, and humidity, and a
+              selected city from the search history should display its current and future weather conditions.</p>
+            <a href="https://jason1chiu.github.io/weather-dashboard/" class="btn btn-primary" target="_blank">Weather
+              Dashboard</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/7th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">7<sup>th</sup> Project (Node.js)</h5>
+            <p class="card-text">For a command-line application that accepts user input, it should prompt for
+              information about the user's repository to generate a professional README.md file including a project
+              title and sections for Description, Table of Contents, Installation, Usage, License, Contributing, Tests,
+              and Questions, with entered information for each section appropriately included, a license option list
+              with badge and notice in the License section of the README, the user's GitHub username or email address
+              and instructions for contacting them in the Questions section, and functioning Table of Contents links.
+            </p>
+            <a href="https://github.com/jason1chiu/Professional_README_Generator" class="btn btn-primary"
+              target="_blank">Professional README Generator</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/8th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">8<sup>th</sup> Project (OOP)</h5>
+            <p class="card-text">A command-line application that prompts the user for team member information should
+              generate a well-formatted team roster HTML file, with clickable email addresses opening the user's default
+              email program, and clickable GitHub usernames opening the user's browser to the corresponding profile, and
+              prompts the user for the team manager's name, employee ID, email address, and office number upon startup,
+              with a menu for adding engineers or interns, and taking the user back to the menu after each entry, and
+              exiting the application and generating the HTML file when the user finishes building their team.</p>
+            <a href="https://github.com/jason1chiu/Team-Profile-Generator" class="btn btn-primary" target="_blank">Team
+              Profile Generator</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/9th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">9<sup>th</sup> Project (Express.js)</h5>
+            <p class="card-text">Upon opening the Note Taker application, a landing page with a link to a notes page is
+              presented, where clicking on the link displays a page with existing notes listed in the left-hand column,
+              and empty fields to enter a new note title and text in the right-hand column; after entering the new note
+              title and text, a Save icon appears in the navigation at the top of the page, clicking on which saves the
+              new note and displays it in the left-hand column with other existing notes, and clicking on an existing
+              note in the list displays it in the right-hand column; moreover, clicking on the Write icon in the
+              navigation at the top of the page presents the user with empty fields to enter a new note title and text
+              in the right-hand column.</p>
+            <a href="https://still-lake-39330.herokuapp.com" class="btn btn-primary" target="_blank">Note Taker</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/10th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">10<sup>th</sup> Project (SQL)</h5>
+            <p class="card-text">Upon starting a command-line application that accepts user input, options are presented
+              to view all departments, roles, and employees, add a department, role, or employee, or update an
+              employee's role, with the corresponding actions presenting formatted tables and prompting the user to
+              enter necessary information which is added to the database.</p>
+            <a href="https://github.com/jason1chiu/employee-tracker" class="btn btn-primary" target="_blank">Employee
+              Management System</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/11th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">11<sup>th</sup> Project (ORM)</h5>
+            <p class="card-text">By configuring environment variables, seeding the development database, and testing API
+              routes using Insomnia Core, a functional Express.js API can be connected to a MySQL database using
+              Sequelize and used to create, update, and delete data.</p>
+            <a href="https://github.com/jason1chiu/E-Commerce-Backend" class="btn btn-primary"
+              target="_blank">E-commerce Back End</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/12th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">12<sup>th</sup> Project (MVC)</h5>
+            <p class="card-text">Upon visiting a CMS-style blog site, the user is presented with a homepage containing
+              existing blog posts and navigation links for the homepage and dashboard, and given the option to log in or
+              sign up, whereupon they can create a username and password and be logged in, after which they can view
+              existing blog posts and leave comments, add or update their own blog posts in the dashboard, delete or
+              update their posts, and log out; if the user is idle for a set time they will need to log in again before
+              they can add, update, or delete comments.</p>
+            <a href="https://aqueous-tundra-56406.herokuapp.com" class="btn btn-primary" target="_blank">Tech Blog</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/13th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">13<sup>th</sup> Project (GitHub Gist)</h5>
+            <p class="card-text">A web development student wants a regex tutorial explaining a specific search pattern
+              with a descriptive title, introductory paragraph, summary, table of contents, detailed explanations of
+              each component, and author information with a link to their GitHub profile.</p>
+            <a href="https://gist.github.com/jason1chiu/0bacace6d866d227305bf49c3d0f393c" class="btn btn-primary"
+              target="_blank">Email Validation Regex Tutorial</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/14th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">14<sup>th</sup> Project (NoSQL)</h5>
+            <p class="card-text">A social media startup requests an API with a NoSQL database to handle large amounts of
+              unstructured data, including syncing Mongoose models to MongoDB and successfully performing CRUD
+              operations for users, thoughts, reactions, and friends.</p>
+            <a href="https://github.com/jason1chiu/Social-Network-API" class="btn btn-primary" target="_blank">Social
+              Network API</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/15th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">15<sup>th</sup> Project (PWA)</h5>
+            <p class="card-text">The app is a text editor web application that allows developers to create and save
+              notes or code snippets with or without an internet connection using IndexedDB, with a registered service
+              worker using workbox that pre-caches static assets and proper build scripts for a webpack application when
+              deployed to Heroku.</p>
+            <a href="https://serene-castle-73912.herokuapp.com" class="btn btn-primary" target="_blank">Text Editor</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/16th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/17th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/18th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Go somewhere</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="row m-auto">
       <section class="col-12">
-        <nav class="navbar">
-          <section class="container-fluid justify-content-center align-items-center btn-group">
-            <button type="button" class="btn btn-light btn-link"><a href="#contact">
-              <a href="#phone" class="text-black social-icon social-icon--phone" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="This top tooltip is themed via CSS variables.">
-                <i class="fa-solid fa-phone"></i>
-                <section>
-                  <span>Phone</span>
-                </section>
-              </a>
-            </button>
-            <button type="button" class="btn btn-light btn-link">
-              <a href="https://www.facebook.com/jasonchiu1991/" target="blank" class="text-black social-icon social-icon--facebook">
-                <i class="fa-brands fa-facebook"></i>
-                <section>
-                  <span>Facebook</span>
-                </section>
-              </a>
-            </button>
-            <button type="button" class="btn btn-light btn-link">
-              <a href="https://github.com/jason1chiu/" target="blank" class="text-black social-icon social-icon--github">
-                <i class="fa-brands fa-github"></i>
-                <section>
-                  <span>Github</span>
-                </section>
-              </a>
-            </button>
-            <button type="button" class="btn btn-light btn-link">
-              <a href="https://www.linkedin.com/in/chien-cheng-chiu-0a0930257/" target="blank" class="text-black social-icon social-icon--linkedin">
-              <i class="fa-brands fa-linkedin"></i>
+        <h2 class="text-center" id="groupProjects">Group Projects</h2>
+      </section>
+    </section>
+
+    <section class="row m-auto">
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/19th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Group Project 1</h5>
+            <p class="card-text">The Pokemon Counter Generator is a tool that allows users to search for a Pokemon, view
+              its name, type, weaknesses, adversaries, and a related video, and store previous searches for reference
+              with a history button.</p>
+            <a href="https://ashketchumandpikachu.github.io/PokemonBattle/" class="btn btn-primary"
+              target="_blank">Pokemon Counter Generator</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/20th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Group Project 2</h5>
+            <p class="card-text">Nomad Nebula is a comprehensive web-based tool that enables stargazers to explore the
+              celestial realm and connect with other enthusiasts through its interactive platform, featuring a myriad of
+              features including daily updates on stargazing conditions, profile management, community engagement, and
+              zodiac sign information.</p>
+            <a href="https://the-nomad-nebula.herokuapp.com" class="btn btn-primary" target="_blank">Nomad Nebula</a>
+          </div>
+        </div>
+      </section>
+      <section class="col-12 col-md-4">
+        <div class="card my-3">
+          <img src="./assets/images/21th-project.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Group Project 3</h5>
+            <p class="card-text">TinySquares seamlessly amalgamates all your journals in a single platform, enabling effortless tracking of progress in various life domains, convenient syncing of data across devices, goal-setting, and achievement tracking, thereby simplifying your journaling experience, saving time, and unlocking your full potential.</p>
+            <a href="https://tinysquares.herokuapp.com" class="btn btn-primary" target="_blank">TinySquares</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </section class="row">
+  <section class="col-12">
+    <h2 class=text-center id="contact">Contact</h2>
+  </section>
+  <section class="col-12">
+    <nav class="navbar">
+      <section class="container-fluid justify-content-center align-items-center btn-group">
+        <button type="button" class="btn btn-light btn-link"><a href="#contact">
+            <a href="#phone" class="text-black social-icon social-icon--phone" data-bs-toggle="tooltip"
+              data-bs-placement="top" data-bs-title="This top tooltip is themed via CSS variables.">
+              <i class="fa-solid fa-phone"></i>
               <section>
-                <span>LinkedIn</span>
+                <span>Phone</span>
               </section>
-            </a></button>
-          </section>
-        </nav>
+            </a>
+        </button>
+        <button type="button" class="btn btn-light btn-link">
+          <a href="https://www.facebook.com/jasonchiu1991/" target="blank"
+            class="text-black social-icon social-icon--facebook">
+            <i class="fa-brands fa-facebook"></i>
+            <section>
+              <span>Facebook</span>
+            </section>
+          </a>
+        </button>
+        <button type="button" class="btn btn-light btn-link">
+          <a href="https://github.com/jason1chiu/" target="blank" class="text-black social-icon social-icon--github">
+            <i class="fa-brands fa-github"></i>
+            <section>
+              <span>Github</span>
+            </section>
+          </a>
+        </button>
+        <button type="button" class="btn btn-light btn-link">
+          <a href="https://www.linkedin.com/in/chien-cheng-chiu-0a0930257/" target="blank"
+            class="text-black social-icon social-icon--linkedin">
+            <i class="fa-brands fa-linkedin"></i>
+            <section>
+              <span>LinkedIn</span>
+            </section>
+          </a></button>
       </section>
-    </section>
+    </nav>
+  </section>
+  </section>
 
   <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="./assets/js/script.js"></script>
 
-  </body>
+</body>
+
 </html>
